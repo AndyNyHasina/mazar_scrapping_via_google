@@ -1,0 +1,5 @@
+/extension_nopecha
+/playwright_profile
+/.env
+/venv/*
+/text.txt

@@ -1,0 +1,9 @@
+source info : 
+https://colab.research.google.com/drive/1h9Q37yQqrLNhkqBCCWtHMPc09iOlLEQ5?usp=sharing
+https://nopecha.com/
+page.goto(f"https://nopecha.com/setup#{NOPECHA_KEY}")
+
+# Download and load the NopeCHA extension
+with open('ext.crx', 'wb') as f:
+    f.write(requests.get('https://nopecha.com/f/ext.crx').content)
+options.add_extension('ext.crx')
