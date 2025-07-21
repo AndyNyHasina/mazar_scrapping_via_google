@@ -16,12 +16,6 @@ async def human_type(locator, text, delay_range=(0.05, 0.15)):
         await locator.type(char)
         await asyncio.sleep(random.uniform(*delay_range))
 
-async def mirindra(page):
-    search = page.locator('textarea[role="combobox"]')
-    await search.click()
-    await human_type(search, "Andy Ny Hasina ANDRIAMBOAHANGY")
-    await search.press("Enter")
-    input('📌 Appuie sur Entrée pour quitter...')
 
 async def runChrome(search_url: str, proxies=None):
     async with async_playwright() as p:
@@ -88,10 +82,11 @@ async def runChrome(search_url: str, proxies=None):
 
         page =  context.pages[0]  if  context.pages[0] else  await context.new_page()
 
-        #await page.goto(search_url, wait_until="networkidle", timeout=0)
-        await page.goto("https://www.google.com/recaptcha/api2/demo", wait_until="networkidle", timeout=0)
+        await page.goto(search_url, wait_until="networkidle", timeout=0)
+        #await page.goto("https://www.google.com/recaptcha/api2/demo", wait_until="networkidle", timeout=0)
+        await main_loop(page)
         input("")
-        hrefs = await get_list_link(page)
+        
         await context.close()
 
 import urllib.parse
@@ -108,32 +103,12 @@ def generate_google_search_url(query: str, domain: str = "linkedin.com/in/") -> 
     return google_url
 
 
-async def check_capcha(page , browser , url , proxies): 
-    if "https://www.google.com/sorry/" in page.url : 
-        try :
-            selector = 'div[data-sitekey][class="g-recaptcha"]'
-            selector_capcha = await page.query_selector(selector)
-            if not selector_capcha :
-                return
-            key =await selector_capcha.get_attribute("data-sitekey")
-            if key : 
-                print(key)
-                token =  solve_recaptcha2(page , key)
-                input('first')
-                if token : 
-                    await page.evaluate(
-            """(token) => { document.querySelector('#g-recaptcha-response').value = token; }""",
-            token
-        )
-        except Exception as e  : 
-            print(e)
-            await browser.close()
-            
+
 
 
 async def get_list_link(page):
     selector = 'div[role="main"] span > a'
-    await page.wait_for_selector(selector, timeout=15000)
+    await page.wait_for_selector(selector, timeout=0)
     list_link = await page.query_selector_all(selector)
     
     hrefs = []
@@ -152,6 +127,79 @@ async def get_list_link(page):
 def write_file(data):
     with open('text.txt', 'w', encoding='utf-8') as f:
         f.write(data)
+
+
+async def change_page(page):
+    selector = 'div[role = "main"] a#pnnext.LLNLxf'
+    next_button1 = page.locator(selector)
+    next_button = await page.query_selector(selector) 
+    if next_button : 
+        await smooth_scroll_to_element(page, next_button1)
+        await next_button.click()
+        await page.wait_for_timeout(random.uniform(5,20)*1000)
+        return True
+    else : 
+        return False
+
+
+async def main_loop(page):
+    while(True):
+        await check_url(page)
+        hrefs = await get_list_link(page)
+        print(hrefs)
+        print("*"*10)
+        is_next_page_exist =await change_page(page)
+        if not  is_next_page_exist : 
+            break
+        
+import asyncio
+
+# Scroll lent vers un élément
+async def smooth_scroll_to_element(page, locator, steps=[5,9], timeout=[5, 10]):
+    step =int(random.uniform(*steps)*10)
+    
+    print(step)
+    timeout = random.uniform(*timeout)
+    # Récupérer la position de l'élément
+    box = await locator.bounding_box()
+    if not box:
+        raise Exception("Élément introuvable")
+
+    target_y = box["y"]
+    current_y = await page.evaluate("() => window.scrollY")
+
+    step_distance = (target_y - current_y) / step
+
+    for _ in range(step):
+        current_y += step_distance
+        await page.evaluate(f"window.scrollTo(0, {current_y})")
+        
+        await asyncio.sleep(timeout/100)  # ralentit le défilement
+
+    # S'assurer que l'élément est visible
+    await locator.scroll_into_view_if_needed()
+
+def read_content(path_text) : 
+    if not os.path.exists(path_text):
+        raise Exception("pas de fichier portant ce nom ")
+    with open(path_text, "r", encoding="utf-8") as f:
+        contenu = f.read()
+        return contenu
+
+
+async def get_content(path_text):
+    content  = read_content(path_text)
+    #ask chat_gpt
+    
+    
+async def check_url(page):
+    await page.wait_for_load_state("domcontentloaded")
+    if 'https://www.google.com/sorry/index?continue' in page.url:
+        await page.wait_for_function(
+            "() => window.location.href.includes('https://www.google.com/search')"
+        )
+        await page.wait_for_load_state("domcontentloaded")
+        
 
 
 
