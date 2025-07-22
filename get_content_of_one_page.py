@@ -86,7 +86,6 @@ async def load_dom(page, gpt ):
 
 def ask_gpt(gpt:GPT_ask , content_linkedin):
     texte = f"Le contenu du profil LinkedIn ici :\" {content_linkedin} \""
-    print(texte)
     return gpt.conversation(texte)
     
 

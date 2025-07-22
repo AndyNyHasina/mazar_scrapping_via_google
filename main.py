@@ -108,17 +108,19 @@ def generate_google_search_url(query: str, domain: str = "linkedin.com/in/") -> 
 
 async def get_list_link(page):
     selector = 'div[role="main"] span > a'
-    await page.wait_for_selector(selector, timeout=0)
-    list_link = await page.query_selector_all(selector)
-    
-    hrefs = []
-    for link in list_link:
-        href = await link.get_attribute("href")
-        if href and "linkedin" in href:
-            hrefs.append(href)
-            
-    write_file('\n'.join(hrefs))
-    return hrefs
+    try :
+        await page.wait_for_selector(selector, timeout=3000)
+        list_link = await page.query_selector_all(selector)
+        
+        hrefs = []
+        for link in list_link:
+            href = await link.get_attribute("href")
+            if href and "linkedin" in href:
+                hrefs.append(href)
+                
+        return hrefs
+    except Exception as e : 
+        return []
 
 
 
@@ -130,28 +132,36 @@ def write_file(data):
 
 
 async def change_page(page):
-    selector = 'div[role = "main"] a#pnnext.LLNLxf'
-    next_button1 = page.locator(selector)
-    next_button = await page.query_selector(selector) 
-    if next_button : 
-        await smooth_scroll_to_element(page, next_button1)
-        await next_button.click()
-        await page.wait_for_timeout(random.uniform(5,20)*1000)
-        return True
-    else : 
+    selector = 'div[role="main"] a#pnnext.LLNLxf'
+    try:
+        # Attend que le bouton "suivant" soit présent (timeout = 10s)
+        await page.wait_for_selector(selector, timeout=10000)
+        next_button1 = page.locator(selector)
+        next_button = await page.query_selector(selector)
+        if next_button:
+            await smooth_scroll_to_element(page, next_button1)
+            await next_button.click()
+            # Pause aléatoire entre 5 et 20 secondes
+            await page.wait_for_timeout(random.uniform(5, 20) * 1000)
+            return True
+        else:
+            return False
+    except Exception as e:
+        print(e)
         return False
 
 
 async def main_loop(page):
+    list_hrefs  = []
     while(True):
         await check_url(page)
         hrefs = await get_list_link(page)
-        print(hrefs)
-        print("*"*10)
+        list_hrefs.extend(hrefs)
         is_next_page_exist =await change_page(page)
         if not  is_next_page_exist : 
             break
-        
+    write_file('\n'.join(list_hrefs))
+    
 import asyncio
 
 # Scroll lent vers un élément
@@ -194,9 +204,11 @@ async def get_content(path_text):
     
 async def check_url(page):
     await page.wait_for_load_state("domcontentloaded")
-    if 'https://www.google.com/sorry/index?continue' in page.url:
+    if page.url.startswith('https://www.google.com/sorry/index?continue'):
+        print("hello")
         await page.wait_for_function(
-            "() => window.location.href.includes('https://www.google.com/search')"
+            "() => window.location.href.startsWith('https://www.google.com/search')", timeout = 0
+            
         )
         await page.wait_for_load_state("domcontentloaded")
         
@@ -213,5 +225,4 @@ if __name__ == "__main__":
     }
     url =generate_google_search_url("mazars")
     print(url)
-    #url  = "http://www.google.com/recaptcha/api2/demo"
     asyncio.run(runChrome(url ,proxies))
