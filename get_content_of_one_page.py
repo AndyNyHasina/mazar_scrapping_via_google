@@ -29,12 +29,13 @@ async def runChrome(search_url: str, gpt:GPT_ask ,compagny:str   , refere : str)
         )
         #page = context.pages[0] if len(context.pages) > 0 else await context.new_page()
         page = await context.new_page()
-        await page.set_extra_http_headers({
-    "Referer": f"{refere}"
-})
+        #await page.set_extra_http_headers({
+    #"Referer": f"{refere}"
+#})
 
 
-        await page.goto(search_url, wait_until="domcontentloaded", timeout=60000  )
+        print(f'{search_url}?trk=people-guest_people_search-card')
+        await page.goto(f'{search_url}?trk=people-guest_people_search-card', wait_until="domcontentloaded", timeout=60000  )
         await load_dom(page, gpt, compagny)
         await asyncio.sleep(random.uniform(30 ,60))
         await context.close()
