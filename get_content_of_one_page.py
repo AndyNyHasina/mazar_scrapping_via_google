@@ -1,13 +1,16 @@
+import json
 import asyncio
 import random
 from playwright.async_api import async_playwright
-from controller import GPT_ask
-async def runChrome(search_url: str, gpt:GPT_ask ,proxies=None  ):
-    async with async_playwright() as p:
+from GPT import GPT_ask
+from playwright_stealth import Stealth
+import shutil
+import os 
+async def runChrome(search_url: str, gpt:GPT_ask ,compagny:str   , refere : str):
     
+    async with Stealth().use_async(async_playwright()) as p:
         context = await p.chromium.launch_persistent_context(
             user_data_dir="test",
-            
             headless=False,
             ignore_default_args=['--enable-automation'],
             args=[
@@ -16,80 +19,94 @@ async def runChrome(search_url: str, gpt:GPT_ask ,proxies=None  ):
                 "--disable-infobars",
 
             ],
-            viewport={'width': 1366, 'height': 645},
-            locale="en-US",
+
+
             user_agent=(
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                 "AppleWebKit/537.36 (KHTML, like Gecko) "
                 "Chrome/115.0.0.0 Safari/537.36"
             )
         )
-
-        await context.add_init_script("""
-            delete Object.getPrototypeOf(navigator).webdriver
-
-            // Fausser languages
-            Object.defineProperty(navigator, 'languages', {
-                get: () => [ "fr-FR","en-US","fr","en"],
-            });
-
-            // Supprimer les propriétés chrome
-            window.chrome = {
-                runtime: {},
-                // Ajouter ici d'autres propriétés si besoin
-            };
-
-            // Empêcher la détection de permissions
-            const originalQuery = window.navigator.permissions.query;
-            window.navigator.permissions.query = (parameters) => (
-                parameters.name === 'notifications' ?
-                Promise.resolve({ state: Notification.permission }) :
-                originalQuery(parameters)
-            );
-
-            // Empêcher WebGL detection (optionnel)
-            const getParameter = WebGLRenderingContext.prototype.getParameter;
-            WebGLRenderingContext.prototype.getParameter = function(parameter) {
-                if (parameter === 37445) { // UNMASKED_VENDOR_WEBGL
-                    return "Google Inc. (Intel)";
-                }
-
-                if (parameter === 37446) { // UNMASKED_RENDERER_WEBGL
-                    return "ANGLE (Intel, Intel(R) HD Graphics 5500 (0x00001616) Direct3D11 vs_5_0 ps_5_0, D3D11)";
-                }
-                return getParameter(parameter);
-            };
-            HTMLVideoElement.prototype.canPlayType = (type) => {
-
-    return "probably";
-  };
-        """)
-
-        page =  context.pages[0]  if  context.pages[0] else  await context.new_page()
-
-        await page.goto('https://fr.linkedin.com/in/christophe-mazars-b7a20a30', wait_until="domcontentloaded", timeout=0 ,referer="https://www.google.com")
-        await load_dom(page , gpt)
-        input("")
+        #page = context.pages[0] if len(context.pages) > 0 else await context.new_page()
+        page = await context.new_page()
+        await page.set_extra_http_headers({
+    "Referer": f"{refere}"
+})
 
 
-async def load_dom(page, gpt ):
-    selector ='section.profile'
+        await page.goto(search_url, wait_until="domcontentloaded", timeout=60000  )
+        await load_dom(page, gpt, compagny)
+        await asyncio.sleep(random.uniform(30 ,60))
+        await context.close()
+        
+        
+async def load_dom(page, gpt, compagny):
+    selector = 'section.profile'
     await page.wait_for_load_state('domcontentloaded')
+    await page.wait_for_selector(selector, timeout=20000)
 
     profile = await page.query_selector(selector)
-    if not  profile : 
-        raise Exception('pas de section profile')
-    content_html = await profile.inner_text()
-    gpt_response = ask_gpt(gpt= gpt  ,  content_linkedin= content_html)
-    print(gpt_response)
-    print("fini")
-
-def ask_gpt(gpt:GPT_ask , content_linkedin):
-    texte = f"Le contenu du profil LinkedIn ici :\" {content_linkedin} \""
-    return gpt.conversation(texte)
+    if not profile:
+        raise Exception('Pas de section profile trouvée')
     
+    content_html = await profile.inner_text()
+    gpt_response = ask_gpt(gpt=gpt, content_linkedin=content_html, compagny=compagny)
+    json_data = str_to_json(str_data=gpt_response)
+    
+    if not json_data:
+        return
+    content = json_data.get("content")
+    if  content == "vide":
+        return
+    
+    informations = content.get("informations_personnelles", {})
+    nom = informations.get("nom")
+    
+    if nom:
+        write_ceo(data=nom, file_name=compagny)
+        print(f"Nom du CEO/CFO détecté : {nom}")
+    else:
+        print("Aucun nom trouvé dans les informations personnelles.")
+    
+    print("Analyse terminée.")
 
+
+def str_to_json(str_data):
+    try:
+        return json.loads(str_data)
+    except json.JSONDecodeError:
+        print("❌ Erreur : la chaîne n'est pas du JSON valide.")
+        return None
+
+def ask_gpt(gpt: GPT_ask, content_linkedin, compagny):
+    input_data ={
+        "texte_extrait" : content_linkedin ,
+        "compagnie" : compagny
+    }
+    return gpt.conversation(input_data)
+
+
+async def main_function(search_url: str, gpt: GPT_ask, compagny: str , page):
+    path_session = r'C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\test'
+    url = page.url
+    async def safe_run():
         
-if __name__ == "__main__":
-    gpt = GPT_ask()
-    asyncio.run(runChrome(search_url='url' ,proxies='proxies' , gpt=gpt))
+        try:
+            await runChrome(search_url=search_url, gpt=gpt, compagny=compagny  ,refere = url)
+        except Exception as e :
+            print(e)
+        finally :
+            if os.path.exists(path_session):
+                shutil.rmtree(path_session, ignore_errors=True)
+
+
+    try:
+        await safe_run()
+    except Exception as e:
+        print(f"Erreur détectée : {e}, tentative de relance...")
+        await safe_run()
+
+def write_ceo(file_name, data):
+    with open(f"{file_name}.txt", 'a', encoding='utf-8') as f:
+        f.write(f"{data}\n")
+
