@@ -2,10 +2,14 @@ import random
 import asyncio
 from get_content_of_one_page import main_function
 from GPT import GPT_ask
+from Global_var import combinaison_choice
+
 class Utils : 
     def __init__(self , page):
         self.page = page
         self.gpt = GPT_ask()
+        self.init_value()
+        
     async def main_loop_for_list_url(self, counter:int |None=None):
         list_hrefs  = []
         while(True):
@@ -93,7 +97,11 @@ class Utils :
             hrefs = await self.get_list_link()
             list_hrefs.extend(hrefs)
             for link in hrefs : 
-                await self.access_linkdin_profil(href=link , compagny= compagny)
+                if len(self.combinaison_choice) == 0 :
+                    self.init_value()
+                index = random.choice(self.combinaison_choice)
+                self.combinaison_choice.remove(index)
+                await self.access_linkdin_profil(href=link , compagny= compagny , index = index )
             if counter  and len(list_hrefs)>= counter:
                 break
             is_next_page_exist =await self.change_page()
@@ -101,6 +109,9 @@ class Utils :
                 break
         return list_hrefs
     
-    async def access_linkdin_profil(self , href , compagny) : 
-        await main_function(search_url=href , gpt= self.gpt  ,compagny= compagny, page =self.page )
+    async def access_linkdin_profil(self , href , compagny , index) : 
+        await main_function(search_url=href , gpt= self.gpt  ,compagny= compagny, page =self.page  , index = index )
         await asyncio.sleep(random.uniform(20,30))
+    
+    def init_value(self):
+        self.combinaison_choice = combinaison_choice

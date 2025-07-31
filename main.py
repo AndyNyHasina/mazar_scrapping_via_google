@@ -47,8 +47,6 @@ async def runChrome(search_url: str, compagny:str , proxies=None):
 
             await browser.add_init_script("""
                 
-                // Initialize mouse position tracking
-                window.mousePosition = { x: 0, y: 0 };
 
                 // Fausser languages
                 Object.defineProperty(navigator, 'languages', {
