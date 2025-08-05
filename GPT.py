@@ -1,9 +1,9 @@
+import json
 import os
 from langchain_openai import  ChatOpenAI
 
 from langchain_core.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
-from langchain_core.output_parsers import StrOutputParser
-
+from langchain_core.output_parsers import JsonOutputParser
 
 
 from dotenv import load_dotenv
@@ -106,14 +106,16 @@ Ne jamais ajouter de balises ```json ou tout autre texte hors JSON.
         system_message = SystemMessagePromptTemplate.from_template(self.system_prompt)
         human_message = HumanMessagePromptTemplate.from_template("{input}")
         self.prompt_template = ChatPromptTemplate.from_messages([system_message, human_message])
-        self.output_parser = StrOutputParser()
+        self.output_parser = JsonOutputParser()
         self.chain = self.prompt_template | self.llm | self.output_parser
     
     def conversation(self, user_input ) -> str:
         """Génère une réponse selon le mode"""
         try:
             result = self.chain.invoke({"input": user_input})
-            return result.strip() if isinstance(result, str) else str(result).strip()
+            post_json = json.dumps(result, ensure_ascii=False)
+            
+            return post_json
         except Exception as e:
             return f"❌ Erreur lors de la génération : {str(e)}\n💡 Vérifiez votre clé API OpenAI"
 

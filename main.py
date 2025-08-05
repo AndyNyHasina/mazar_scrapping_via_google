@@ -1,5 +1,6 @@
 import asyncio
 import random
+import logging
 from playwright.async_api import async_playwright
 from dotenv import load_dotenv
 import os
@@ -7,8 +8,18 @@ from playwright_stealth import Stealth
 import urllib.parse
 import asyncio
 from outil import Utils
-from get_content_of_one_page import main_function
-EXTENSION_PATH = r"C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\extension_nopecha"
+
+
+# CONFIGURATION DU LOGGING
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler("linkedin_scraper.log", mode='a', encoding='utf-8'),
+        logging.StreamHandler()
+    ]
+)
+
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 dotenv_path = os.path.join(current_dir, '.env')
@@ -82,16 +93,25 @@ async def runChrome(search_url: str, compagny:str , proxies=None):
                     return "probably";
                 };
             """)
-            page = browser.pages[0] if browser.pages else await browser.new_page()
-            util=Utils(page)
-            await page.goto(search_url, wait_until="networkidle", timeout=0)
-            hrefs = await util.main_loop_for_list_url_with_access(compagny=compagny)
-            print(hrefs)
-            
-            input("")
-            await browser.close()
+            try:
+                page = browser.pages[0] if browser.pages else await browser.new_page()
+                util = Utils(page)
+
+                logging.info("🌐 Navigation vers la page de recherche Google...")
+                await page.goto(search_url, wait_until="networkidle", timeout=0)
+                
+                logging.info("🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...")
+                hrefs = await util.main_loop_for_list_url_with_access(compagny=compagny)
+
+                logging.info(f"🔗 Liens extraits : {hrefs}")
+            except Exception as e:
+                logging.error(f"❌ Erreur lors de la navigation ou extraction : {str(e)}", exc_info=True)
+            finally:
+                await browser.close()
+                logging.info("🛑 Navigateur fermé proprement")
 
 def generate_google_search_url(query: str, domain: str = "linkedin.com/in/") -> str:
+    
     #full_query = f'site:{domain} "{query}"'
     encoded_query = urllib.parse.quote_plus(query)
     google_url = f"https://www.google.com/search?q={encoded_query}"

@@ -1,0 +1,46 @@
+2025-08-04 16:32:39,996 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-04 16:32:43,615 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-04 16:32:43,688 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-04 16:32:43,688 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 1780)
+2025-08-04 16:32:43,689 [INFO] Profil: ((5120, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36', ('Google Inc. (NVIDIA Corporation)', 'ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-04 16:32:44,576 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-04 16:32:54,227 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-04 16:33:57,215 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-04 16:33:57,253 [INFO] 🛑 Navigateur fermé proprement
+2025-08-04 16:33:57,362 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-08-04 16:34:02,216 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-04 16:34:05,510 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-04 16:34:05,578 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-04 16:34:05,578 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 1631)
+2025-08-04 16:34:05,579 [INFO] Profil: ((5120, 2880), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) Iris Plus Graphics 640 Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-04 16:34:06,399 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-04 16:34:16,327 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-04 16:35:18,198 [INFO] ✅ Retour sur la page de recherche Google
+2025-08-04 16:35:41,811 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-04 16:35:41,862 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEOiAkDrMZrXAAAAZh1SzmoTnsLy2ywTIaEsSEp855SaqS4PNpFbvaW6mZfSMSUzeaEt0ZyguZDmwr2CfhgpE_e2CzYJgKs4V95ZtDKsfE39VZJa7zt5LerfVSj-jfndR03_G8=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEOiAkDrMZrXAAAAZh1SzmoTnsLy2ywTIaEsSEp855SaqS4PNpFbvaW6mZfSMSUzeaEt0ZyguZDmwr2CfhgpE_e2CzYJgKs4V95ZtDKsfE39VZJa7zt5LerfVSj-jfndR03_G8=&original_refe…"
+
+2025-08-04 16:35:41,862 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-04 16:35:42,680 [INFO] Navigation via LinkedIn referer
+2025-08-04 16:37:45,791 [ERROR] Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.linkedin.com/pub/dir/+/+?trk=guest_homepage-basic_guest_nav_menu_people", waiting until "networkidle"
+
+2025-08-04 16:37:59,192 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-04 16:37:59,205 [INFO] Nom du CEO/CFO détecté : Alexandre Bompard
+2025-08-04 16:37:59,206 [INFO] Analyse terminée.
+2025-08-04 16:38:42,670 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-04 16:59:33,068 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-04 16:59:42,797 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-04 16:59:42,976 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-04 16:59:42,976 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 720)
+2025-08-04 16:59:42,976 [INFO] Profil: ((1920, 1080), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.171 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-04 16:59:45,025 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-04 17:00:02,110 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-04 17:00:15,435 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-04 17:00:15,507 [INFO] 🛑 Navigateur fermé proprement
