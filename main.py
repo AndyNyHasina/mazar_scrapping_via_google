@@ -64,12 +64,10 @@ async def runChrome(search_url: str, compagny:str , proxies=None):
                     get: () => ["fr-FR","en-US","fr","en"],
                 });
 
-                // Supprimer les propriétés chrome
                 window.chrome = {
                     runtime: {},
                 };
 
-                // Empêcher la détection de permissions
                 const originalQuery = window.navigator.permissions.query;
                 window.navigator.permissions.query = (parameters) => (
                     parameters.name === 'notifications' ?
@@ -125,6 +123,6 @@ if __name__ == "__main__":
         "username" : "brd-customer-hl_fc29d462-zone-web_unlocker1",
         "password": "ku4mg0aw29yo"
     }
-    url = generate_google_search_url(query="CEO Carrefour linkedin" )
+    url = generate_google_search_url(query="CEO orange linkedin" )
     
-    asyncio.run(runChrome(search_url=url , compagny = "Carrefour"))
+    asyncio.run(runChrome(search_url=url , compagny = "orange"))

@@ -1,46 +1,1039 @@
-2025-08-04 16:32:39,996 [INFO] 🌐 Navigation vers la page de recherche Google...
-2025-08-04 16:32:43,615 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
-2025-08-04 16:32:43,688 [INFO] 🔎 Traitement de 10 profils LinkedIn
-2025-08-04 16:32:43,688 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 1780)
-2025-08-04 16:32:43,689 [INFO] Profil: ((5120, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36', ('Google Inc. (NVIDIA Corporation)', 'ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 Direct3D11 vs_5_0 ps_5_0, D3D11)'))
-2025-08-04 16:32:44,576 [INFO] Navigation via Google referer pour accéder au profil
-2025-08-04 16:32:54,227 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
-2025-08-04 16:33:57,215 [INFO] Suppression de l'ancienne session utilisateur
-2025-08-04 16:33:57,253 [INFO] 🛑 Navigateur fermé proprement
-2025-08-04 16:33:57,362 [ERROR] Future exception was never retrieved
+2025-08-05 09:20:43,027 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 09:20:49,751 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 09:20:49,832 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 09:20:49,832 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 347)
+2025-08-05 09:20:49,832 [INFO] Profil: ((7680, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.121 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 09:20:50,634 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 09:20:56,824 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-05 09:29:19,283 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 09:29:19,324 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 09:29:19,495 [ERROR] Future exception was never retrieved
 future: <Future finished exception=Exception('Connection closed while reading from the driver')>
 Exception: Connection closed while reading from the driver
-2025-08-04 16:34:02,216 [INFO] 🌐 Navigation vers la page de recherche Google...
-2025-08-04 16:34:05,510 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
-2025-08-04 16:34:05,578 [INFO] 🔎 Traitement de 10 profils LinkedIn
-2025-08-04 16:34:05,578 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 1631)
-2025-08-04 16:34:05,579 [INFO] Profil: ((5120, 2880), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) Iris Plus Graphics 640 Direct3D11 vs_5_0 ps_5_0, D3D11)'))
-2025-08-04 16:34:06,399 [INFO] Navigation via Google referer pour accéder au profil
-2025-08-04 16:34:16,327 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
-2025-08-04 16:35:18,198 [INFO] ✅ Retour sur la page de recherche Google
-2025-08-04 16:35:41,811 [INFO] Suppression de l'ancienne session utilisateur
-2025-08-04 16:35:41,862 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+2025-08-05 09:29:40,625 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 09:29:47,051 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 09:29:47,173 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 09:29:47,173 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 79)
+2025-08-05 09:29:47,174 [INFO] Profil: ((1366, 768), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 09:29:47,944 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 09:31:38,683 [ERROR] 
+2025-08-05 09:31:39,024 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 09:31:39,066 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 09:31:39,175 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-08-05 09:31:44,440 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 09:31:52,494 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 09:31:52,578 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 09:31:52,578 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 144)
+2025-08-05 09:31:52,579 [INFO] Profil: ((1920, 1080), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.129 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 09:31:53,490 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 09:39:31,307 [ERROR] 
+2025-08-05 09:39:31,672 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 09:39:31,716 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 09:39:31,811 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-08-05 09:39:37,298 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 09:39:43,817 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 09:39:43,900 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 09:39:43,900 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 98)
+2025-08-05 09:39:43,900 [INFO] Profil: ((1366, 768), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.121 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 09:39:44,652 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 09:40:39,271 [ERROR] 
+2025-08-05 09:40:39,359 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 09:40:39,416 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 09:40:39,649 [ERROR] Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2025-08-05 09:40:45,213 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 09:40:48,607 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 09:40:48,680 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 09:40:48,680 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 337)
+2025-08-05 09:40:48,680 [INFO] Profil: ((7680, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 09:40:49,427 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 09:43:07,856 [ERROR] 
+2025-08-05 09:43:08,128 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 09:43:08,293 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 09:43:11,664 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<runChrome() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\main.py:34> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:228, <3 more>, gather.<locals>._done_callback() at C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2025-08-05 09:43:16,478 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 09:43:19,303 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 09:43:19,372 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 09:43:19,373 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 347)
+2025-08-05 09:43:19,373 [INFO] Profil: ((7680, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.121 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 09:43:20,153 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 09:43:49,768 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 09:43:49,827 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
 Call log:
   - waiting for locator("section.profile") to be visible
-    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEOiAkDrMZrXAAAAZh1SzmoTnsLy2ywTIaEsSEp855SaqS4PNpFbvaW6mZfSMSUzeaEt0ZyguZDmwr2CfhgpE_e2CzYJgKs4V95ZtDKsfE39VZJa7zt5LerfVSj-jfndR03_G8=&original_refe…" navigation to finish...
-    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEOiAkDrMZrXAAAAZh1SzmoTnsLy2ywTIaEsSEp855SaqS4PNpFbvaW6mZfSMSUzeaEt0ZyguZDmwr2CfhgpE_e2CzYJgKs4V95ZtDKsfE39VZJa7zt5LerfVSj-jfndR03_G8=&original_refe…"
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGOp8ny27Q2QgAAAZh4-IJo_AgDD9WktHbRlMMq0YXtvTceSjygs5HnU4cNHivxteEwyEYy6YqZeAHdfzYXTaQkQH5MCkOWTlh3-NQFBBMCJjbJp6JQx_jSDkGkZbBaMtwGArw=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGOp8ny27Q2QgAAAZh4-IJo_AgDD9WktHbRlMMq0YXtvTceSjygs5HnU4cNHivxteEwyEYy6YqZeAHdfzYXTaQkQH5MCkOWTlh3-NQFBBMCJjbJp6JQx_jSDkGkZbBaMtwGArw=&original_refe…"
 
-2025-08-04 16:35:41,862 [WARNING] 2 tentative(s) restante(s), relance...
-2025-08-04 16:35:42,680 [INFO] Navigation via LinkedIn referer
-2025-08-04 16:37:45,791 [ERROR] Page.goto: Timeout 60000ms exceeded.
+2025-08-05 09:43:49,827 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 09:43:51,687 [INFO] Navigation via LinkedIn referer
+2025-08-05 09:43:55,930 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 09:43:55,979 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 09:44:03,806 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<runChrome() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\main.py:34> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:228, <9 more>, gather.<locals>._done_callback() at C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2025-08-05 09:44:09,294 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 09:44:12,285 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 09:44:12,356 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 09:44:12,356 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 342)
+2025-08-05 09:44:12,356 [INFO] Profil: ((7680, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.129 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 09:44:13,147 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 09:44:18,463 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-05 09:44:29,670 [ERROR] Page.wait_for_function: Target page, context or browser has been closed
+2025-08-05 09:44:29,938 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 09:44:29,985 [ERROR] BrowserContext.new_page: Protocol error (Target.createTarget): Failed to open a new tab
+2025-08-05 09:44:29,986 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 09:44:30,966 [INFO] Navigation via LinkedIn referer
+2025-08-05 09:46:36,598 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 09:46:36,620 [INFO] Nom du CEO/CFO détecté : Alexandre Bompard
+2025-08-05 09:46:36,620 [INFO] Analyse terminée.
+2025-08-05 09:47:09,653 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 09:47:09,731 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 09:47:21,180 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<runChrome() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\main.py:34> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:228, <11 more>, gather.<locals>._done_callback() at C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2025-08-05 09:47:33,896 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 09:47:36,977 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 09:47:37,095 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 09:47:37,096 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 195)
+2025-08-05 09:47:37,096 [INFO] Profil: ((2560, 1600), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.121 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 09:47:38,268 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 09:48:07,667 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 09:48:07,723 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFEy2L9GSTeKwAAAZh4_HI49H1rmutbTl8ERhn-nd82hBpdC7Rgqi8laHHfThF8ghn6AJAC2_x-xtPWgZnhrmJXs-gUX1YLbQ3gOITsc3qV7ljciBrwbOobY3RzZU5ZQg3Y9Yw=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFEy2L9GSTeKwAAAZh4_HI49H1rmutbTl8ERhn-nd82hBpdC7Rgqi8laHHfThF8ghn6AJAC2_x-xtPWgZnhrmJXs-gUX1YLbQ3gOITsc3qV7ljciBrwbOobY3RzZU5ZQg3Y9Yw=&original_refe…"
+
+2025-08-05 09:48:07,724 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 09:48:08,727 [INFO] Navigation via LinkedIn referer
+2025-08-05 09:50:27,614 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 09:50:27,621 [INFO] Nom du CEO/CFO détecté : Alexandre Bompard
+2025-08-05 09:50:27,621 [INFO] Analyse terminée.
+2025-08-05 09:51:22,613 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 09:51:47,410 [INFO] ➡️ Accès au profil : https://mg.linkedin.com/in/djavad-fidahoussen-74b345b4 (index combinaison: 45)
+2025-08-05 09:51:47,412 [INFO] Profil: ((1024, 768), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.121 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 09:51:48,293 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 09:52:05,069 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 09:52:05,076 [INFO] Nom du CEO/CFO détecté : Djavad Fidahoussen
+2025-08-05 09:52:05,077 [INFO] Analyse terminée.
+2025-08-05 09:52:45,856 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 09:52:45,927 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 09:53:20,422 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 09:53:23,415 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 09:53:23,487 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 09:53:23,487 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 214)
+2025-08-05 09:53:23,487 [INFO] Profil: ((3440, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 09:53:24,492 [INFO] Navigation via LinkedIn referer
+2025-08-05 09:55:45,105 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 09:55:45,167 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://fr.linkedin.com/in/alexandrebompard?trk=people-guest_people_search-card&original_referer=" navigation to finish...
+    - navigated to "https://fr.linkedin.com/in/alexandrebompard?trk=people-guest_people_search-card&original_referer="
+
+2025-08-05 09:55:45,167 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 09:55:46,073 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 09:56:15,564 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 09:56:15,623 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEnIpQzSl3BtwAAAZh5A-R44MdnRjlWsNahoT_OYs9gln_Ey4POo5lwz1wubmxwqcHP0f1dW65dyyfe-IQeim3AWAXhi6vDXayLGhw8pReMNsayuqIoZyj74MKne9TIr4abDRA=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEnIpQzSl3BtwAAAZh5A-R44MdnRjlWsNahoT_OYs9gln_Ey4POo5lwz1wubmxwqcHP0f1dW65dyyfe-IQeim3AWAXhi6vDXayLGhw8pReMNsayuqIoZyj74MKne9TIr4abDRA=&original_refe…"
+
+2025-08-05 09:56:15,624 [WARNING] 1 tentative(s) restante(s), relance...
+2025-08-05 09:56:38,263 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 09:56:38,301 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGX4NC0C9v1pwAAAZh5BDpo4g3XDtijInBELaXzuY0wjpsWE0wGzazmOD8iPuEGKijlQXer3XtoFqpC-Hmek6QcRJ2M4iAGj_0ZqAz-ryle3Msh8hTcSs3WYRDFS3jkHJGTHKc=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGX4NC0C9v1pwAAAZh5BDpo4g3XDtijInBELaXzuY0wjpsWE0wGzazmOD8iPuEGKijlQXer3XtoFqpC-Hmek6QcRJ2M4iAGj_0ZqAz-ryle3Msh8hTcSs3WYRDFS3jkHJGTHKc=&original_refe…"
+
+2025-08-05 09:56:38,302 [WARNING] 0 tentative(s) restante(s), relance...
+2025-08-05 10:18:35,383 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 10:18:38,877 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 10:18:38,947 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 10:18:38,947 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 217)
+2025-08-05 10:18:38,948 [INFO] Profil: ((3440, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.129 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 10:18:39,986 [INFO] Navigation via LinkedIn referer
+2025-08-05 10:20:45,228 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 10:20:45,240 [INFO] Nom du CEO/CFO détecté : Alexandre Bompard
+2025-08-05 10:20:45,240 [INFO] Analyse terminée.
+2025-08-05 10:21:18,367 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 10:21:40,482 [INFO] ➡️ Accès au profil : https://mg.linkedin.com/in/djavad-fidahoussen-74b345b4 (index combinaison: 196)
+2025-08-05 10:21:40,483 [INFO] Profil: ((2560, 1600), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.121 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 10:21:42,648 [INFO] Navigation via LinkedIn referer
+2025-08-05 10:23:42,562 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 10:23:42,570 [INFO] Nom du CEO/CFO détecté : Djavad Fidahoussen
+2025-08-05 10:23:42,570 [INFO] Analyse terminée.
+2025-08-05 10:24:25,440 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 10:24:46,270 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/martineloyer/fr (index combinaison: 102)
+2025-08-05 10:24:46,272 [INFO] Profil: ((1600, 900), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 10:24:47,152 [INFO] Navigation via LinkedIn referer
+2025-08-05 10:27:18,181 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 10:27:18,244 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFQtXJ08pQbXAAAAZh5IE3oWXEWGZfkvMeXDzW_-aN46LfanrBC5CC8l2Luxmup05O6SHEEvFhESi0BGSFB8kNA54hlKobdIw8A2AljK_P5RKhx4SpHceJhH166_8Be-0ItHyU=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFQtXJ08pQbXAAAAZh5IE3oWXEWGZfkvMeXDzW_-aN46LfanrBC5CC8l2Luxmup05O6SHEEvFhESi0BGSFB8kNA54hlKobdIw8A2AljK_P5RKhx4SpHceJhH166_8Be-0ItHyU=&original_refe…"
+
+2025-08-05 10:27:18,244 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 10:27:19,243 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 10:27:28,884 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 10:28:05,118 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 10:28:05,169 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 10:28:05,269 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-08-05 10:30:10,942 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 10:30:15,486 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 10:30:15,561 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 10:30:15,561 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 121)
+2025-08-05 10:30:15,561 [INFO] Profil: ((1600, 900), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.121 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 10:30:16,526 [INFO] Navigation via LinkedIn referer
+2025-08-05 10:36:17,634 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 10:36:17,746 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<Connection.run() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:303> exception=InvalidStateError('invalid state')>
+Traceback (most recent call last):
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.run()
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_transport.py", line 171, in run
+    self._stopped_future.set_result(None)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+asyncio.exceptions.InvalidStateError: invalid state
+2025-08-05 10:37:33,932 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 10:37:39,163 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 10:37:39,239 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 10:37:39,239 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 266)
+2025-08-05 10:37:39,239 [INFO] Profil: ((5120, 2880), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.129 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 10:37:40,235 [INFO] Navigation via LinkedIn referer
+2025-08-05 10:39:44,841 [ERROR] Page.goto: Timeout 60000ms exceeded.
 Call log:
   - navigating to "https://www.linkedin.com/pub/dir/+/+?trk=guest_homepage-basic_guest_nav_menu_people", waiting until "networkidle"
 
-2025-08-04 16:37:59,192 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2025-08-04 16:37:59,205 [INFO] Nom du CEO/CFO détecté : Alexandre Bompard
-2025-08-04 16:37:59,206 [INFO] Analyse terminée.
-2025-08-04 16:38:42,670 [INFO] Suppression de l'ancienne session utilisateur
-2025-08-04 16:59:33,068 [INFO] 🌐 Navigation vers la page de recherche Google...
-2025-08-04 16:59:42,797 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
-2025-08-04 16:59:42,976 [INFO] 🔎 Traitement de 10 profils LinkedIn
-2025-08-04 16:59:42,976 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 720)
-2025-08-04 16:59:42,976 [INFO] Profil: ((1920, 1080), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.171 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
-2025-08-04 16:59:45,025 [INFO] Navigation via Google referer pour accéder au profil
-2025-08-04 17:00:02,110 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
-2025-08-04 17:00:15,435 [INFO] Suppression de l'ancienne session utilisateur
-2025-08-04 17:00:15,507 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 10:41:41,316 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 10:57:55,461 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 10:58:01,077 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 10:58:01,160 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 10:58:01,160 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 206)
+2025-08-05 10:58:01,161 [INFO] Profil: ((3440, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.171 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 10:58:03,030 [INFO] Navigation via LinkedIn referer
+2025-08-05 11:05:37,982 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 11:05:38,062 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 11:05:38,226 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-08-05 11:05:43,796 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 11:05:47,247 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 11:05:47,320 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 11:05:47,320 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 191)
+2025-08-05 11:05:47,320 [INFO] Profil: ((2560, 1600), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.129 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 11:05:48,311 [INFO] Navigation via LinkedIn referer
+2025-08-05 11:06:06,554 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 11:06:06,629 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 11:07:22,873 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 11:07:26,171 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 11:07:26,279 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 11:07:26,279 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 246)
+2025-08-05 11:07:26,280 [INFO] Profil: ((3840, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.121 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 11:07:27,279 [INFO] Navigation via LinkedIn referer
+2025-08-05 11:08:22,522 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 11:08:22,589 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 11:08:23,865 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<runChrome() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\main.py:34> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:228, <2 more>, gather.<locals>._done_callback() at C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2025-08-05 11:08:41,972 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 11:08:45,294 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 11:08:45,366 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 11:08:45,366 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 256)
+2025-08-05 11:08:45,366 [INFO] Profil: ((5120, 2880), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.171 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 11:08:46,387 [INFO] Navigation via LinkedIn referer
+2025-08-05 11:08:47,398 [ERROR] Page.goto: Timeout 1000ms exceeded.
+Call log:
+  - navigating to "https://www.linkedin.com/", waiting until "networkidle"
+
+2025-08-05 11:08:47,398 [ERROR] cannot access local variable 'page' where it is not associated with a value
+2025-08-05 11:09:35,848 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 11:09:35,900 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 11:09:37,891 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<runChrome() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\main.py:34> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:228, <2 more>, gather.<locals>._done_callback() at C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2025-08-05 11:09:42,530 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 11:09:45,640 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 11:09:45,711 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 11:09:45,711 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 252)
+2025-08-05 11:09:45,712 [INFO] Profil: ((5120, 2880), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 11:09:46,592 [INFO] Navigation via LinkedIn referer
+2025-08-05 11:09:47,609 [ERROR] Page.goto: Timeout 1000ms exceeded.
+Call log:
+  - navigating to "https://www.linkedin.com/", waiting until "networkidle"
+
+2025-08-05 11:09:57,623 [ERROR] Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("li > a[href=\"https://www.linkedin.com/pub/dir/+/+?trk=guest_homepage-basic_guest_nav_menu_people\"]") to be visible
+    - waiting for" https://www.linkedin.com/" navigation to finish...
+    - navigated to "https://www.linkedin.com/"
+    - locator resolved to visible <a data-tracking-will-navigate="" data-tracking-control-name="guest_homepage-basic_guest_nav_menu_people" href="https://www.linkedin.com/pub/dir/+/+?trk=guest_homepage-basic_guest_nav_menu_people" class="top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline↵        w-8 ↵        flex-col mx-1 babybear:mx-0↵        text-color-text-secondary visited:text-color-text-secondary">…</a>
+
+2025-08-05 11:11:38,332 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 11:11:44,282 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 11:11:48,244 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 11:11:48,316 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 11:11:48,316 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 236)
+2025-08-05 11:11:48,317 [INFO] Profil: ((3840, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 11:11:49,246 [INFO] Navigation via LinkedIn referer
+2025-08-05 11:11:50,250 [ERROR] Page.goto: Timeout 1000ms exceeded.
+Call log:
+  - navigating to "https://www.linkedin.com/", waiting until "networkidle"
+
+2025-08-05 11:12:46,926 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 11:12:46,967 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 11:12:47,053 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-08-05 11:13:35,438 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 11:13:39,215 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 11:13:39,295 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 11:13:39,295 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 307)
+2025-08-05 11:13:39,295 [INFO] Profil: ((7680, 4320), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.171 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 11:13:40,202 [INFO] Navigation via LinkedIn referer
+2025-08-05 11:13:41,212 [ERROR] Page.goto: Timeout 1000ms exceeded.
+Call log:
+  - navigating to "https://www.linkedin.com/", waiting until "networkidle"
+
+2025-08-05 11:14:04,666 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 11:14:04,709 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 11:14:04,799 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-08-05 11:14:58,701 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 11:15:01,673 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 11:15:01,741 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 11:15:01,741 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 208)
+2025-08-05 11:15:01,742 [INFO] Profil: ((3440, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.171 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 11:15:02,699 [INFO] Navigation via LinkedIn referer
+2025-08-05 11:17:15,291 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 11:17:15,346 [INFO] Nom du CEO/CFO détecté : Alexandre Bompard
+2025-08-05 11:17:15,346 [INFO] Analyse terminée.
+2025-08-05 11:19:14,648 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 11:19:21,365 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 11:19:24,461 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 11:19:24,535 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 11:19:24,535 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 216)
+2025-08-05 11:19:24,535 [INFO] Profil: ((3440, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.129 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 11:19:25,524 [INFO] Navigation via LinkedIn referer
+2025-08-05 11:20:40,477 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 11:20:48,458 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 11:20:51,479 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 11:20:51,552 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 11:20:51,553 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 211)
+2025-08-05 11:20:51,553 [INFO] Profil: ((3440, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 11:20:52,518 [INFO] Navigation via LinkedIn referer
+2025-08-05 11:22:56,347 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 11:22:56,409 [INFO] Nom du CEO/CFO détecté : Alexandre Bompard
+2025-08-05 11:22:56,409 [INFO] Analyse terminée.
+2025-08-05 11:41:28,836 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 11:41:29,523 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<runChrome() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\main.py:34> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:228, <6 more>, gather.<locals>._done_callback() at C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2025-08-05 11:41:36,454 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 11:41:40,159 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 11:41:40,229 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 11:41:40,230 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 246)
+2025-08-05 11:41:40,230 [INFO] Profil: ((3840, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.121 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 11:41:41,220 [INFO] Navigation via Google touche
+2025-08-05 11:42:03,585 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 11:42:52,777 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 11:42:56,433 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 11:42:56,503 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 11:42:56,504 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 237)
+2025-08-05 11:42:56,504 [INFO] Profil: ((3840, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 11:42:57,416 [INFO] Navigation via Google touche
+2025-08-05 11:44:07,576 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 11:44:12,617 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 11:44:16,033 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 11:44:16,142 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 11:44:16,142 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 42)
+2025-08-05 11:44:16,142 [INFO] Profil: ((1024, 768), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.129 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 11:44:17,100 [INFO] Navigation via Google touche
+2025-08-05 11:45:08,210 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 11:45:08,550 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<Connection.run() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:303> exception=InvalidStateError('invalid state')>
+Traceback (most recent call last):
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.run()
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_transport.py", line 171, in run
+    self._stopped_future.set_result(None)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+asyncio.exceptions.InvalidStateError: invalid state
+2025-08-05 11:47:08,509 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 11:47:13,040 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 11:47:13,121 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 11:47:13,122 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 102)
+2025-08-05 11:47:13,122 [INFO] Profil: ((1600, 900), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 11:47:14,039 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 11:47:47,512 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 11:47:47,521 [INFO] Nom du CEO/CFO détecté : Alexandre Bompard
+2025-08-05 11:47:47,522 [INFO] Analyse terminée.
+2025-08-05 11:52:38,875 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 11:52:44,204 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 11:52:48,583 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 11:52:48,652 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 11:52:48,652 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 262)
+2025-08-05 11:52:48,652 [INFO] Profil: ((5120, 2880), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 11:52:49,538 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 11:53:18,204 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 11:53:18,216 [INFO] Nom du CEO/CFO détecté : Alexandre Bompard
+2025-08-05 11:53:18,216 [INFO] Analyse terminée.
+2025-08-05 11:53:49,131 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 11:54:09,670 [INFO] ➡️ Accès au profil : https://mg.linkedin.com/in/djavad-fidahoussen-74b345b4 (index combinaison: 307)
+2025-08-05 11:54:09,671 [INFO] Profil: ((7680, 4320), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.171 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 11:54:10,600 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 11:54:23,955 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-05 11:55:24,154 [INFO] ✅ Retour sur la page de recherche Google
+2025-08-05 11:55:57,030 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 11:55:57,038 [INFO] Nom du CEO/CFO détecté : Djavad Fidahoussen
+2025-08-05 11:55:57,039 [INFO] Analyse terminée.
+2025-08-05 11:56:51,858 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 11:57:19,039 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/martineloyer/fr (index combinaison: 250)
+2025-08-05 11:57:19,040 [INFO] Profil: ((5120, 2880), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 11:57:20,701 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 11:57:27,861 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-05 11:58:08,982 [INFO] ✅ Retour sur la page de recherche Google
+2025-08-05 11:58:35,128 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 11:59:25,429 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 11:59:49,133 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/stephane-maquaire-072334 (index combinaison: 325)
+2025-08-05 11:59:49,133 [INFO] Profil: ((7680, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 11:59:50,039 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 11:59:56,874 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-05 12:00:08,721 [INFO] ✅ Retour sur la page de recherche Google
+2025-08-05 12:00:50,066 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 12:00:50,146 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGLkMQk-MSeqQAAAZh5de_IOWKw20nofBnN8M12I9ljf0exHuJyLCLFbKt8cJpi7GlXczuY2isAFE60EtfAerlX6QFAyfirtA3Ix2KmY0J6uW9yFQI6whUmXsinfh0bXXYE2EY=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGLkMQk-MSeqQAAAZh5de_IOWKw20nofBnN8M12I9ljf0exHuJyLCLFbKt8cJpi7GlXczuY2isAFE60EtfAerlX6QFAyfirtA3Ix2KmY0J6uW9yFQI6whUmXsinfh0bXXYE2EY=&original_refe…"
+
+2025-08-05 12:00:50,147 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 12:00:51,330 [INFO] Navigation via LinkedIn referer
+2025-08-05 12:03:01,827 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 12:03:34,814 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 12:03:37,559 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<runChrome() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\main.py:34> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:228, <42 more>, gather.<locals>._done_callback() at C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2025-08-05 12:04:22,299 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 12:04:25,384 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 12:04:25,454 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 12:04:25,455 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 167)
+2025-08-05 12:04:25,455 [INFO] Profil: ((2560, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.129 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 12:04:26,348 [INFO] Navigation via LinkedIn referer
+2025-08-05 12:06:57,093 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 12:06:57,152 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=qf&original_referer=https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHJHX7OajhM4gAAAZh5epcwsnyw4wgoiHL9rxmRtqryKELC93gzx_alurLICHyr1570DKyYWjyWgGIKq4LzV0b2Smu2…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=qf&original_referer=https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHJHX7OajhM4gAAAZh5epcwsnyw4wgoiHL9rxmRtqryKELC93gzx_alurLICHyr1570DKyYWjyWgGIKq4LzV0b2Smu2…"
+
+2025-08-05 12:06:57,152 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 12:06:58,314 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 12:07:08,849 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-05 12:07:55,742 [INFO] ✅ Retour sur la page de recherche Google
+2025-08-05 12:08:29,543 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 12:08:29,589 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHExyKMeS-3OQAAAZh5fPSoNcbWz1se5pZQ4y22HLCcXyl1uloP7Huvgj0uzEXkgC2fOYcgP-l2lfxw3u7M1DuzgFHZ3WpYKTSDqUPlae38mICcbfSijvIZdtoRR9Z-BG1NmuY=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHExyKMeS-3OQAAAZh5fPSoNcbWz1se5pZQ4y22HLCcXyl1uloP7Huvgj0uzEXkgC2fOYcgP-l2lfxw3u7M1DuzgFHZ3WpYKTSDqUPlae38mICcbfSijvIZdtoRR9Z-BG1NmuY=&original_refe…"
+
+2025-08-05 12:08:29,589 [WARNING] 3 tentative(s) restante(s), relance...
+2025-08-05 12:08:30,564 [INFO] Navigation via LinkedIn touche
+2025-08-05 12:10:33,867 [ERROR] Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.linkedin.com/pub/dir/+/+?trk=guest_homepage-basic_guest_nav_menu_people", waiting until "networkidle"
+
+2025-08-05 12:10:42,670 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 12:10:42,680 [INFO] Nom du CEO/CFO détecté : Alexandre Bompard
+2025-08-05 12:10:42,680 [INFO] Analyse terminée.
+2025-08-05 12:11:13,711 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 13:51:16,612 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 13:51:21,037 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 13:51:21,138 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 13:51:21,139 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard
+2025-08-05 13:51:21,139 [ERROR] ❌ Erreur lors de l'accès au profil https://fr.linkedin.com/in/alexandrebompard : cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\outil.py", line 138, in access_linkdin_profil
+    await main_function(search_url=href, gpt=self.gpt, compagny=compagny, page=self.page, list_index=list_index)
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\get_content_of_one_page.py", line 164, in main_function
+    logging.info(f"Profil: {resolution_and_user_agent_value_and_gpu}")
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+2025-08-05 13:51:21,140 [INFO] ➡️ Accès au profil : https://mg.linkedin.com/in/djavad-fidahoussen-74b345b4
+2025-08-05 13:51:21,140 [ERROR] ❌ Erreur lors de l'accès au profil https://mg.linkedin.com/in/djavad-fidahoussen-74b345b4 : cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\outil.py", line 138, in access_linkdin_profil
+    await main_function(search_url=href, gpt=self.gpt, compagny=compagny, page=self.page, list_index=list_index)
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\get_content_of_one_page.py", line 164, in main_function
+    logging.info(f"Profil: {resolution_and_user_agent_value_and_gpu}")
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+2025-08-05 13:51:21,141 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/martineloyer/fr
+2025-08-05 13:51:21,141 [ERROR] ❌ Erreur lors de l'accès au profil https://fr.linkedin.com/in/martineloyer/fr : cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\outil.py", line 138, in access_linkdin_profil
+    await main_function(search_url=href, gpt=self.gpt, compagny=compagny, page=self.page, list_index=list_index)
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\get_content_of_one_page.py", line 164, in main_function
+    logging.info(f"Profil: {resolution_and_user_agent_value_and_gpu}")
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+2025-08-05 13:51:21,141 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/stephane-maquaire-072334
+2025-08-05 13:51:21,141 [ERROR] ❌ Erreur lors de l'accès au profil https://fr.linkedin.com/in/stephane-maquaire-072334 : cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\outil.py", line 138, in access_linkdin_profil
+    await main_function(search_url=href, gpt=self.gpt, compagny=compagny, page=self.page, list_index=list_index)
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\get_content_of_one_page.py", line 164, in main_function
+    logging.info(f"Profil: {resolution_and_user_agent_value_and_gpu}")
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+2025-08-05 13:51:21,142 [INFO] ➡️ Accès au profil : https://es.linkedin.com/in/ga%C3%ABtan-de-lamberterie-a90a2020
+2025-08-05 13:51:21,142 [ERROR] ❌ Erreur lors de l'accès au profil https://es.linkedin.com/in/ga%C3%ABtan-de-lamberterie-a90a2020 : cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\outil.py", line 138, in access_linkdin_profil
+    await main_function(search_url=href, gpt=self.gpt, compagny=compagny, page=self.page, list_index=list_index)
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\get_content_of_one_page.py", line 164, in main_function
+    logging.info(f"Profil: {resolution_and_user_agent_value_and_gpu}")
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+2025-08-05 13:51:21,142 [INFO] ➡️ Accès au profil : https://pl.linkedin.com/in/tareckouaibi/fr
+2025-08-05 13:51:21,142 [ERROR] ❌ Erreur lors de l'accès au profil https://pl.linkedin.com/in/tareckouaibi/fr : cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\outil.py", line 138, in access_linkdin_profil
+    await main_function(search_url=href, gpt=self.gpt, compagny=compagny, page=self.page, list_index=list_index)
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\get_content_of_one_page.py", line 164, in main_function
+    logging.info(f"Profil: {resolution_and_user_agent_value_and_gpu}")
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+2025-08-05 13:51:21,143 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/guillaume-de-colonges-696bb410
+2025-08-05 13:51:21,143 [ERROR] ❌ Erreur lors de l'accès au profil https://fr.linkedin.com/in/guillaume-de-colonges-696bb410 : cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\outil.py", line 138, in access_linkdin_profil
+    await main_function(search_url=href, gpt=self.gpt, compagny=compagny, page=self.page, list_index=list_index)
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\get_content_of_one_page.py", line 164, in main_function
+    logging.info(f"Profil: {resolution_and_user_agent_value_and_gpu}")
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+2025-08-05 13:51:21,143 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandre-de-palmas
+2025-08-05 13:51:21,143 [ERROR] ❌ Erreur lors de l'accès au profil https://fr.linkedin.com/in/alexandre-de-palmas : cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\outil.py", line 138, in access_linkdin_profil
+    await main_function(search_url=href, gpt=self.gpt, compagny=compagny, page=self.page, list_index=list_index)
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\get_content_of_one_page.py", line 164, in main_function
+    logging.info(f"Profil: {resolution_and_user_agent_value_and_gpu}")
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+2025-08-05 13:51:21,144 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/vincent-tanneur-a47747112
+2025-08-05 13:51:21,144 [ERROR] ❌ Erreur lors de l'accès au profil https://fr.linkedin.com/in/vincent-tanneur-a47747112 : cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\outil.py", line 138, in access_linkdin_profil
+    await main_function(search_url=href, gpt=self.gpt, compagny=compagny, page=self.page, list_index=list_index)
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\get_content_of_one_page.py", line 164, in main_function
+    logging.info(f"Profil: {resolution_and_user_agent_value_and_gpu}")
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+2025-08-05 13:51:21,145 [INFO] ➡️ Accès au profil : https://es.linkedin.com/in/elodie-perthuisot
+2025-08-05 13:51:21,145 [ERROR] ❌ Erreur lors de l'accès au profil https://es.linkedin.com/in/elodie-perthuisot : cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\outil.py", line 138, in access_linkdin_profil
+    await main_function(search_url=href, gpt=self.gpt, compagny=compagny, page=self.page, list_index=list_index)
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\get_content_of_one_page.py", line 164, in main_function
+    logging.info(f"Profil: {resolution_and_user_agent_value_and_gpu}")
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'resolution_and_user_agent_value_and_gpu' where it is not associated with a value
+2025-08-05 13:51:28,729 [INFO] 🧭 Scroll effectué vers l'élément ciblé
+2025-08-05 13:51:29,285 [INFO] ➡️ Page suivante... Attente 7.93s
+2025-08-05 13:51:33,107 [ERROR] Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2025-08-05 13:51:58,553 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 13:52:02,113 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 13:52:02,186 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 13:52:02,186 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard
+2025-08-05 13:52:02,186 [INFO] Profil: ((3840, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.171 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 13:52:03,189 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 13:52:45,914 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 13:52:45,971 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEe65o5y2XCzAAAAZh53G4QQGEgRzZtQEXsOI_-FUt2skgWc5Dia1BLUSHJHI11Lei_8oMhFqudOV_o2WTMHWcyV4nxKJaNxK_ZSXK1MsI5XJ7iO0g-5rjTeELWXpctCfwa6U4=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEe65o5y2XCzAAAAZh53G4QQGEgRzZtQEXsOI_-FUt2skgWc5Dia1BLUSHJHI11Lei_8oMhFqudOV_o2WTMHWcyV4nxKJaNxK_ZSXK1MsI5XJ7iO0g-5rjTeELWXpctCfwa6U4=&original_refe…"
+
+2025-08-05 13:52:45,972 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 13:52:45,972 [INFO] Profil: ((1366, 768), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 13:52:47,202 [INFO] Navigation via LinkedIn referer
+2025-08-05 13:54:51,514 [ERROR] Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.linkedin.com/pub/dir/+/+?trk=guest_homepage-basic_guest_nav_menu_people", waiting until "networkidle"
+
+2025-08-05 13:55:02,260 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 13:55:02,271 [INFO] Nom du CEO/CFO détecté : Alexandre Bompard
+2025-08-05 13:55:02,271 [INFO] Analyse terminée.
+2025-08-05 13:55:02,389 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 13:55:02,426 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 13:55:02,587 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-08-05 13:56:13,916 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 13:56:17,922 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 13:56:17,987 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 13:56:17,987 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 279)
+2025-08-05 13:56:17,987 [INFO] Profil: ((5120, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 13:56:18,921 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 13:56:27,156 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-05 13:57:09,338 [INFO] ✅ Retour sur la page de recherche Google
+2025-08-05 13:57:43,890 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 13:57:43,950 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFAIQptICVZlQAAAZh54PogJeUp8wNJKeKCTp13lC2bsX0MF3AbtHjqX4jemign3o2MjPHfo-VXTvJ1ykaZxv8GNjTFJ1I7T0qBTaxrfJqQqOp_YKCFrcHrQA2eIdvC_-JV0eM=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFAIQptICVZlQAAAZh54PogJeUp8wNJKeKCTp13lC2bsX0MF3AbtHjqX4jemign3o2MjPHfo-VXTvJ1ykaZxv8GNjTFJ1I7T0qBTaxrfJqQqOp_YKCFrcHrQA2eIdvC_-JV0eM=&original_refe…"
+
+2025-08-05 13:57:43,951 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 13:57:45,578 [INFO] Navigation via LinkedIn referer
+2025-08-05 13:59:54,293 [ERROR] Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.linkedin.com/pub/dir/+/+?trk=guest_homepage-basic_guest_nav_menu_people", waiting until "networkidle"
+
+2025-08-05 13:59:57,164 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 13:59:57,211 [ERROR] Page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  - navigating to "https://fr.linkedin.com/in/alexandrebompard?trk=people-guest_people_search-card", waiting until "domcontentloaded"
+
+2025-08-05 13:59:57,211 [WARNING] 3 tentative(s) restante(s), relance...
+2025-08-05 13:59:58,941 [INFO] Navigation via LinkedIn touche
+2025-08-05 14:02:06,472 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 14:02:06,490 [INFO] Nom du CEO/CFO détecté : Alexandre Bompard
+2025-08-05 14:02:06,490 [INFO] Analyse terminée.
+2025-08-05 14:02:25,880 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:02:25,980 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 14:02:26,262 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<runChrome() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\main.py:34> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:228, <15 more>, gather.<locals>._done_callback() at C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2025-08-05 14:02:31,836 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 14:02:34,874 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 14:02:34,946 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 14:02:34,946 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/alexandrebompard (index combinaison: 6)
+2025-08-05 14:02:34,947 [INFO] Profil: ((1024, 768), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:02:35,850 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 14:03:21,909 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:03:21,965 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=qf&original_referer=https://www.google.com/&sessionRedirect=https%3A%2F%2Ffr.linkedin.com%2Fin%2Falexandrebompard" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=qf&original_referer=https://www.google.com/&sessionRedirect=https%3A%2F%2Ffr.linkedin.com%2Fin%2Falexandrebompard"
+
+2025-08-05 14:03:21,966 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:03:22,992 [INFO] Navigation via LinkedIn referer
+2025-08-05 14:05:27,690 [ERROR] Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.linkedin.com/pub/dir/+/+?trk=guest_homepage-basic_guest_nav_menu_people", waiting until "networkidle"
+
+2025-08-05 14:05:51,239 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 14:05:51,247 [INFO] Nom du CEO/CFO détecté : Alexandre Bompard
+2025-08-05 14:05:51,247 [INFO] Analyse terminée.
+2025-08-05 14:06:38,441 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:06:58,712 [INFO] ➡️ Accès au profil : https://mg.linkedin.com/in/djavad-fidahoussen-74b345b4 (index combinaison: 10)
+2025-08-05 14:06:58,713 [INFO] Profil: ((1280, 720), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:06:59,664 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 14:07:33,437 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 14:08:20,190 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:08:46,769 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/martineloyer/fr (index combinaison: 41)
+2025-08-05 14:08:46,775 [INFO] Profil: ((3440, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:08:47,663 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 14:09:23,112 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 14:10:14,490 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:10:41,879 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/stephane-maquaire-072334 (index combinaison: 19)
+2025-08-05 14:10:41,880 [INFO] Profil: ((1366, 768), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:10:42,773 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 14:11:24,997 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:11:25,056 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEnfCfBPxPzcwAAAZh57YEosCYtpeg2FeRavz10nv82RNjVnz3cAuj05Cr1AvFcJabUjAG-_Cx9dX8eyPNzRCmxG2HMm7V1l-4JFctVmcSn_TbOBu9X_o8DK3C5At8kGvhclh4=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEnfCfBPxPzcwAAAZh57YEosCYtpeg2FeRavz10nv82RNjVnz3cAuj05Cr1AvFcJabUjAG-_Cx9dX8eyPNzRCmxG2HMm7V1l-4JFctVmcSn_TbOBu9X_o8DK3C5At8kGvhclh4=&original_refe…"
+
+2025-08-05 14:11:25,056 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:11:26,086 [INFO] Navigation via LinkedIn referer
+2025-08-05 14:13:34,227 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 14:13:48,248 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:13:48,349 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 14:13:48,632 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<runChrome() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\main.py:34> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:228, <32 more>, gather.<locals>._done_callback() at C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2025-08-05 14:14:28,821 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 14:14:33,533 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 14:14:33,616 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 14:14:33,617 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 21)
+2025-08-05 14:14:33,617 [INFO] Profil: ((1600, 900), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:14:34,463 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 14:14:50,840 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:14:50,933 [ERROR] BrowserContext.new_page: Target page, context or browser has been closed
+2025-08-05 14:14:50,934 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:14:52,228 [INFO] Navigation via LinkedIn referer
+2025-08-05 14:14:56,918 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:14:56,966 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 14:14:58,208 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<runChrome() running at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\main.py:35> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:228, <6 more>, gather.<locals>._done_callback() at C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2025-08-05 14:15:07,489 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 14:15:10,929 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 14:15:11,012 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 14:15:11,012 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 8)
+2025-08-05 14:15:11,012 [INFO] Profil: ((1024, 768), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:15:11,934 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 14:15:56,434 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:15:56,484 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHMrLKI2K7eJQAAAZh58aPAaOdtfRRUVOW5sk5l0Ho5qU2VMJa35H_-mPxdEcGZkbIJFVeeGmgDF84aRE6yBNn8UXjb2cpAoql4-rbSSI5tPcRFtxCPy9cQqaLDPw3gHtRx5ro=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHMrLKI2K7eJQAAAZh58aPAaOdtfRRUVOW5sk5l0Ho5qU2VMJa35H_-mPxdEcGZkbIJFVeeGmgDF84aRE6yBNn8UXjb2cpAoql4-rbSSI5tPcRFtxCPy9cQqaLDPw3gHtRx5ro=&original_refe…"
+
+2025-08-05 14:15:56,484 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:15:57,407 [INFO] Navigation via LinkedIn referer
+2025-08-05 14:18:17,367 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 14:18:17,386 [INFO] Nom du CEO/CFO détecté : Christel Heydemann
+2025-08-05 14:18:17,386 [INFO] Analyse terminée.
+2025-08-05 14:18:59,500 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:19:20,676 [INFO] ➡️ Accès au profil : https://mg.linkedin.com/in/frederic-debord-6880284 (index combinaison: 65)
+2025-08-05 14:19:20,676 [INFO] Profil: ((7680, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:19:23,171 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 14:19:30,146 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-05 14:19:50,629 [INFO] ✅ Retour sur la page de recherche Google
+2025-08-05 14:20:15,121 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 14:20:15,128 [INFO] Nom du CEO/CFO détecté : Frederic Debord
+2025-08-05 14:20:15,129 [INFO] Analyse terminée.
+2025-08-05 14:21:13,891 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:21:40,382 [INFO] ➡️ Accès au profil : https://be.linkedin.com/company/orange (index combinaison: 12)
+2025-08-05 14:21:40,383 [INFO] Profil: ((1280, 720), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:21:42,452 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 14:21:42,687 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:21:42,727 [ERROR] list index out of range
+2025-08-05 14:21:42,727 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:21:43,866 [INFO] Navigation via LinkedIn referer
+2025-08-05 14:24:10,907 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:24:10,970 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+
+2025-08-05 14:24:10,970 [WARNING] 3 tentative(s) restante(s), relance...
+2025-08-05 14:24:12,261 [INFO] Navigation via LinkedIn touche
+2025-08-05 14:26:42,782 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:26:42,840 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+
+2025-08-05 14:26:42,840 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 14:26:43,998 [INFO] Navigation via Google touche
+2025-08-05 14:26:44,215 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:26:44,251 [ERROR] list index out of range
+2025-08-05 14:26:44,252 [WARNING] 1 tentative(s) restante(s), relance...
+2025-08-05 14:26:51,381 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:26:51,437 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 14:31:00,727 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<runChrome() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\main.py:34> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:228, <31 more>, gather.<locals>._done_callback() at C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2025-08-05 14:31:07,472 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 14:31:11,568 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 14:31:11,722 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 14:31:11,722 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 33)
+2025-08-05 14:31:11,722 [INFO] Profil: ((2560, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:31:12,706 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 14:32:06,273 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:32:06,327 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHwI2ATI-HoZAAAAZh6AHDQkOB5qJhyiVlpcaIDdVHUlEAvEH9qu9d5UpPN5JM0PCyw9YYnaqQVbr0yrJrehlEgLw1DoXkR01fb7y8DVVmdS0bcMdYPCSEpQmZx73I_gBpmPXE=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHwI2ATI-HoZAAAAZh6AHDQkOB5qJhyiVlpcaIDdVHUlEAvEH9qu9d5UpPN5JM0PCyw9YYnaqQVbr0yrJrehlEgLw1DoXkR01fb7y8DVVmdS0bcMdYPCSEpQmZx73I_gBpmPXE=&original_refe…"
+
+2025-08-05 14:32:06,328 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:32:07,431 [INFO] Navigation via LinkedIn referer
+2025-08-05 14:34:11,746 [ERROR] Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.linkedin.com/pub/dir/+/+?trk=guest_homepage-basic_guest_nav_menu_people", waiting until "networkidle"
+
+2025-08-05 14:34:20,681 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 14:34:20,692 [INFO] Nom du CEO/CFO détecté : Christel Heydemann
+2025-08-05 14:34:20,692 [INFO] Analyse terminée.
+2025-08-05 14:35:03,160 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:35:26,829 [INFO] ➡️ Accès au profil : https://mg.linkedin.com/in/frederic-debord-6880284 (index combinaison: 57)
+2025-08-05 14:35:26,831 [INFO] Profil: ((5120, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:35:29,321 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 14:35:35,358 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-05 14:35:51,936 [INFO] ✅ Retour sur la page de recherche Google
+2025-08-05 14:36:13,347 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 14:36:13,353 [INFO] Nom du CEO/CFO détecté : Frederic Debord
+2025-08-05 14:36:13,353 [INFO] Analyse terminée.
+2025-08-05 14:37:01,819 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:37:30,963 [INFO] ➡️ Accès au profil : https://be.linkedin.com/company/orange (index combinaison: 21)
+2025-08-05 14:37:30,963 [INFO] Profil: ((1600, 900), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:37:32,040 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 14:37:32,328 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:37:32,369 [ERROR] list index out of range
+2025-08-05 14:37:32,369 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:37:33,817 [INFO] Navigation via LinkedIn referer
+2025-08-05 14:39:57,513 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:39:57,561 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+
+2025-08-05 14:39:57,561 [WARNING] 3 tentative(s) restante(s), relance...
+2025-08-05 14:39:59,028 [INFO] Navigation via LinkedIn touche
+2025-08-05 14:42:29,041 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:42:29,096 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+
+2025-08-05 14:42:29,096 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 14:42:30,220 [INFO] Navigation via Google touche
+2025-08-05 14:42:30,551 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:42:30,596 [ERROR] list index out of range
+2025-08-05 14:42:30,596 [WARNING] 1 tentative(s) restante(s), relance...
+2025-08-05 14:42:53,472 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:42:53,508 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+
+2025-08-05 14:42:53,508 [WARNING] 0 tentative(s) restante(s), relance...
+2025-08-05 14:43:18,489 [INFO] ➡️ Accès au profil : https://sk.linkedin.com/in/mariusz-gatza-a48365 (index combinaison: 18)
+2025-08-05 14:43:18,490 [INFO] Profil: ((1366, 768), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:43:19,491 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 14:44:04,434 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:44:04,479 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGX4eQ1NzWwggAAAZh6C2WAVrh0oizwCqJ0xVbj9db16QWGUwbOKLuwTmJLndLQ_KcxcIvZYpe6o366rFLBcB7aaZQjxFGLk0r8gDJQg3KP7oGAOO47TzEiutfDgnQ5qFQnyTQ=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGX4eQ1NzWwggAAAZh6C2WAVrh0oizwCqJ0xVbj9db16QWGUwbOKLuwTmJLndLQ_KcxcIvZYpe6o366rFLBcB7aaZQjxFGLk0r8gDJQg3KP7oGAOO47TzEiutfDgnQ5qFQnyTQ=&original_refe…"
+
+2025-08-05 14:44:04,479 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:44:05,659 [INFO] Navigation via LinkedIn referer
+2025-08-05 14:45:40,710 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:45:40,783 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 14:45:41,013 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-08-05 14:45:47,411 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 14:45:55,891 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 14:46:00,511 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 14:46:00,651 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 14:46:00,651 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 50)
+2025-08-05 14:46:00,651 [INFO] Profil: ((5120, 2880), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:46:00,651 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:46:00,652 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:46:00,652 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:46:00,652 [WARNING] 3 tentative(s) restante(s), relance...
+2025-08-05 14:46:00,652 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:46:00,652 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 14:46:00,652 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:46:00,652 [WARNING] 1 tentative(s) restante(s), relance...
+2025-08-05 14:46:00,652 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:46:00,652 [WARNING] 0 tentative(s) restante(s), relance...
+2025-08-05 14:46:27,883 [INFO] ➡️ Accès au profil : https://mg.linkedin.com/in/frederic-debord-6880284 (index combinaison: 66)
+2025-08-05 14:46:27,883 [INFO] Profil: ((7680, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:46:27,884 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:46:27,884 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:46:27,884 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:46:27,884 [WARNING] 3 tentative(s) restante(s), relance...
+2025-08-05 14:46:27,884 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:46:27,884 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 14:46:27,884 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:46:27,884 [WARNING] 1 tentative(s) restante(s), relance...
+2025-08-05 14:46:27,885 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:46:27,885 [WARNING] 0 tentative(s) restante(s), relance...
+2025-08-05 14:46:56,681 [INFO] ➡️ Accès au profil : https://be.linkedin.com/company/orange (index combinaison: 54)
+2025-08-05 14:46:56,682 [INFO] Profil: ((5120, 2880), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:46:56,682 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:46:56,682 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:46:56,682 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:46:56,682 [WARNING] 3 tentative(s) restante(s), relance...
+2025-08-05 14:46:56,682 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:46:56,683 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 14:46:56,683 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:46:56,683 [WARNING] 1 tentative(s) restante(s), relance...
+2025-08-05 14:46:56,683 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:46:56,683 [WARNING] 0 tentative(s) restante(s), relance...
+2025-08-05 14:47:24,560 [INFO] ➡️ Accès au profil : https://sk.linkedin.com/in/mariusz-gatza-a48365 (index combinaison: 34)
+2025-08-05 14:47:24,560 [INFO] Profil: ((2560, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:47:24,561 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:47:24,561 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:47:24,561 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:47:24,561 [WARNING] 3 tentative(s) restante(s), relance...
+2025-08-05 14:47:24,561 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:47:24,561 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 14:47:24,561 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:47:24,562 [WARNING] 1 tentative(s) restante(s), relance...
+2025-08-05 14:47:24,562 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:47:24,562 [WARNING] 0 tentative(s) restante(s), relance...
+2025-08-05 14:47:53,757 [INFO] ➡️ Accès au profil : https://bf.linkedin.com/in/ben-cheick-d-haidara-577bb515 (index combinaison: 18)
+2025-08-05 14:47:53,758 [INFO] Profil: ((1366, 768), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:47:53,759 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:47:53,760 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:47:53,760 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:47:53,760 [WARNING] 3 tentative(s) restante(s), relance...
+2025-08-05 14:47:53,761 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:47:53,761 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 14:47:53,761 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:47:53,762 [WARNING] 1 tentative(s) restante(s), relance...
+2025-08-05 14:47:53,762 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:47:53,762 [WARNING] 0 tentative(s) restante(s), relance...
+2025-08-05 14:48:18,506 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/micha%C3%ABl-trabbia-4698a58b (index combinaison: 29)
+2025-08-05 14:48:18,506 [INFO] Profil: ((1920, 1080), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:48:18,507 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:48:18,507 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:48:18,507 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:48:18,507 [WARNING] 3 tentative(s) restante(s), relance...
+2025-08-05 14:48:18,507 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:48:18,508 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 14:48:18,508 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:48:18,508 [WARNING] 1 tentative(s) restante(s), relance...
+2025-08-05 14:48:18,508 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:48:18,509 [WARNING] 0 tentative(s) restante(s), relance...
+2025-08-05 14:48:45,074 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/aliette-mousnier-lompr%C3%A9-6787114 (index combinaison: 26)
+2025-08-05 14:48:45,075 [INFO] Profil: ((1920, 1080), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:48:45,075 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:48:45,075 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:48:45,076 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:48:45,076 [WARNING] 3 tentative(s) restante(s), relance...
+2025-08-05 14:48:45,076 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:48:45,076 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 14:48:45,076 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:48:45,076 [WARNING] 1 tentative(s) restante(s), relance...
+2025-08-05 14:48:45,076 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:48:45,077 [WARNING] 0 tentative(s) restante(s), relance...
+2025-08-05 14:49:14,514 [INFO] ➡️ Accès au profil : https://jo.linkedin.com/in/philippemansour/en (index combinaison: 17)
+2025-08-05 14:49:14,515 [INFO] Profil: ((1366, 768), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:49:14,515 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:49:14,515 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:49:14,515 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:49:14,515 [WARNING] 3 tentative(s) restante(s), relance...
+2025-08-05 14:49:14,516 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:49:14,516 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 14:49:14,516 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:49:14,516 [WARNING] 1 tentative(s) restante(s), relance...
+2025-08-05 14:49:14,516 [ERROR] Stealth.__init__() got an unexpected keyword argument 'navigator_platform_overrid'. Did you mean 'navigator_platform_override'?
+2025-08-05 14:49:14,516 [WARNING] 0 tentative(s) restante(s), relance...
+2025-08-05 14:50:04,231 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 14:50:08,016 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 14:50:08,117 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 14:50:08,117 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 59)
+2025-08-05 14:50:08,117 [INFO] Profil: ((5120, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:50:08,117 [ERROR] Stealth.__init__() got an unexpected keyword argument 'avigator_user_agent_override'. Did you mean 'navigator_user_agent_override'?
+2025-08-05 14:50:08,117 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:50:08,118 [ERROR] Stealth.__init__() got an unexpected keyword argument 'avigator_user_agent_override'. Did you mean 'navigator_user_agent_override'?
+2025-08-05 14:50:08,118 [WARNING] 3 tentative(s) restante(s), relance...
+2025-08-05 14:50:08,118 [ERROR] Stealth.__init__() got an unexpected keyword argument 'avigator_user_agent_override'. Did you mean 'navigator_user_agent_override'?
+2025-08-05 14:50:08,118 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 14:50:08,118 [ERROR] Stealth.__init__() got an unexpected keyword argument 'avigator_user_agent_override'. Did you mean 'navigator_user_agent_override'?
+2025-08-05 14:50:08,118 [WARNING] 1 tentative(s) restante(s), relance...
+2025-08-05 14:50:08,118 [ERROR] Stealth.__init__() got an unexpected keyword argument 'avigator_user_agent_override'. Did you mean 'navigator_user_agent_override'?
+2025-08-05 14:50:08,118 [WARNING] 0 tentative(s) restante(s), relance...
+2025-08-05 14:50:42,353 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 14:50:45,722 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 14:50:45,806 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 14:50:45,806 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 54)
+2025-08-05 14:50:45,806 [INFO] Profil: ((5120, 2880), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:50:45,806 [ERROR] Stealth.__init__() got an unexpected keyword argument 'avigator_user_agent_override'. Did you mean 'navigator_user_agent_override'?
+2025-08-05 14:50:45,806 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:50:45,806 [ERROR] Stealth.__init__() got an unexpected keyword argument 'avigator_user_agent_override'. Did you mean 'navigator_user_agent_override'?
+2025-08-05 14:50:45,806 [WARNING] 3 tentative(s) restante(s), relance...
+2025-08-05 14:50:45,807 [ERROR] Stealth.__init__() got an unexpected keyword argument 'avigator_user_agent_override'. Did you mean 'navigator_user_agent_override'?
+2025-08-05 14:50:45,807 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 14:50:45,807 [ERROR] Stealth.__init__() got an unexpected keyword argument 'avigator_user_agent_override'. Did you mean 'navigator_user_agent_override'?
+2025-08-05 14:50:45,807 [WARNING] 1 tentative(s) restante(s), relance...
+2025-08-05 14:50:45,807 [ERROR] Stealth.__init__() got an unexpected keyword argument 'avigator_user_agent_override'. Did you mean 'navigator_user_agent_override'?
+2025-08-05 14:50:45,807 [WARNING] 0 tentative(s) restante(s), relance...
+2025-08-05 14:51:52,665 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 14:51:56,760 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 14:51:56,845 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 14:51:56,845 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 40)
+2025-08-05 14:51:56,845 [INFO] Profil: ((3440, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:51:57,802 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 14:52:36,995 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:52:37,065 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/" navigation to finish...
+    - navigated to "https://www.linkedin.com/"
+
+2025-08-05 14:52:37,065 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:52:37,973 [INFO] Navigation via LinkedIn referer
+2025-08-05 14:55:01,571 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:55:01,632 [ERROR] Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=qf&original_referer=https://www.linkedin.com/authwall?trk=qf&original_referer=https://www.linkedin.com/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fpub%2Fdi…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=qf&original_referer=https://www.linkedin.com/authwall?trk=qf&original_referer=https://www.linkedin.com/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fpub%2Fdi…"
+
+2025-08-05 14:55:01,633 [WARNING] 3 tentative(s) restante(s), relance...
+2025-08-05 14:55:03,441 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:55:03,466 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 14:55:11,756 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 14:55:15,004 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 14:55:15,096 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 14:55:15,096 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 4)
+2025-08-05 14:55:15,097 [INFO] Profil: ((800, 600), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:55:16,003 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 14:56:03,595 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:56:03,710 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHtSdn0FBHYDQAAAZh6Fl4YMW-0n-cEW4w6zzPOsITFrPXluS6bDa7v3BZ36zs_PffNqLod_suox9IwwXE4c74KL9ksNIlv3NGLqnu88SUevTEuVa7BCcDZ-QU_1sP5Vy-IU3s=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHtSdn0FBHYDQAAAZh6Fl4YMW-0n-cEW4w6zzPOsITFrPXluS6bDa7v3BZ36zs_PffNqLod_suox9IwwXE4c74KL9ksNIlv3NGLqnu88SUevTEuVa7BCcDZ-QU_1sP5Vy-IU3s=&original_refe…"
+
+2025-08-05 14:56:03,710 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 14:56:04,863 [INFO] Navigation via LinkedIn referer
+2025-08-05 14:58:17,228 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 14:58:17,248 [INFO] Nom du CEO/CFO détecté : Christel Heydemann
+2025-08-05 14:58:17,249 [INFO] Analyse terminée.
+2025-08-05 14:59:01,964 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 14:59:30,851 [INFO] ➡️ Accès au profil : https://mg.linkedin.com/in/frederic-debord-6880284 (index combinaison: 32)
+2025-08-05 14:59:30,851 [INFO] Profil: ((2560, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 14:59:31,961 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 15:00:05,914 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 15:00:05,916 [INFO] Nom du CEO/CFO détecté : Frederic Debord
+2025-08-05 15:00:05,917 [INFO] Analyse terminée.
+2025-08-05 15:00:38,806 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:01:05,710 [INFO] ➡️ Accès au profil : https://be.linkedin.com/company/orange (index combinaison: 9)
+2025-08-05 15:01:05,710 [INFO] Profil: ((1024, 768), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 15:01:06,974 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 15:01:07,310 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:01:07,359 [ERROR] list index out of range
+2025-08-05 15:01:07,360 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 15:01:08,371 [INFO] Navigation via LinkedIn referer
+2025-08-05 15:03:35,887 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:03:35,939 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+
+2025-08-05 15:03:35,939 [WARNING] 3 tentative(s) restante(s), relance...
+2025-08-05 15:03:36,827 [INFO] Navigation via LinkedIn touche
+2025-08-05 15:06:02,335 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:06:02,410 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+
+2025-08-05 15:06:02,410 [WARNING] 2 tentative(s) restante(s), relance...
+2025-08-05 15:06:03,324 [INFO] Navigation via Google touche
+2025-08-05 15:06:03,526 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:06:03,563 [ERROR] list index out of range
+2025-08-05 15:06:03,564 [WARNING] 1 tentative(s) restante(s), relance...
+2025-08-05 15:06:26,397 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:06:26,447 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+
+2025-08-05 15:06:26,448 [WARNING] 0 tentative(s) restante(s), relance...
+2025-08-05 15:06:52,560 [INFO] ➡️ Accès au profil : https://sk.linkedin.com/in/mariusz-gatza-a48365 (index combinaison: 18)
+2025-08-05 15:06:52,561 [INFO] Profil: ((1366, 768), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 15:06:53,489 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 15:07:33,721 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:07:33,783 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQF2nFKF5iR_PAAAAZh6IOVop_MGRRJDQk1EJQxJEX5dCVUvIuWCBoS5seF3FBRRifgJ0EM8XosL6mETxOnaZtOPVo5yL_biDcvYYjTur7866xQOLBUtT0K-U_9C93xnHPmiXw4=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQF2nFKF5iR_PAAAAZh6IOVop_MGRRJDQk1EJQxJEX5dCVUvIuWCBoS5seF3FBRRifgJ0EM8XosL6mETxOnaZtOPVo5yL_biDcvYYjTur7866xQOLBUtT0K-U_9C93xnHPmiXw4=&original_refe…"
+
+2025-08-05 15:07:33,783 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 15:07:34,800 [INFO] Navigation via LinkedIn referer

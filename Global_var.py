@@ -20,44 +20,47 @@ resolutions_pc = [
 resolution_choice = [x for x in range(len(resolutions_pc))]
 
 chrome_vendor_gpu = [
-("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce GTX 960 Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce GTX 1050 Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce GTX 1060 Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce GTX 1080 Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce GTX 1660 Ti Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce RTX 2060 Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce RTX 2070 Super Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce RTX 2080 Ti Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 Laptop GPU Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-
-("Google Inc. (Intel)", "ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (Intel)", "ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (Intel)", "ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (Intel)", "ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (Intel)", "ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
 
 
-("Google Inc. (AMD)", "ANGLE (AMD, AMD Radeon RX 5600 XT Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (AMD)", "ANGLE (AMD, AMD Radeon RX 5700 XT Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (AMD)", "ANGLE (AMD, AMD Radeon RX 580 Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (AMD)", "ANGLE (AMD, AMD Radeon RX 6700 XT Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (AMD)", "ANGLE (AMD, AMD Radeon RX 6800 Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (AMD)", "ANGLE (AMD, AMD Radeon RX 6900 XT Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (AMD)", "ANGLE (AMD, AMD Radeon R9 380 Direct3D11 vs_5_0 ps_5_0, D3D11)"),
-("Google Inc. (AMD)", "ANGLE (AMD, AMD Radeon Pro 560X Direct3D11 vs_5_0 ps_5_0, D3D11)")
+    ("Google Inc. (Intel)", "ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (Intel)", "ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (Intel)", "ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (Intel)", "ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (Intel)", "ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+
+
 ]
-
+temp = [
+        ("Google Inc. (AMD)", "ANGLE (AMD, AMD Radeon RX 5600 XT (0x731F) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (AMD)", "ANGLE (AMD, AMD Radeon RX 5700 XT (0x731F) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (AMD)", "ANGLE (AMD, AMD Radeon RX 580 (0x67DF) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (AMD)", "ANGLE (AMD, AMD Radeon RX 6700 XT (0x73DF) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (AMD)", "ANGLE (AMD, AMD Radeon RX 6800 (0x73BF) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (AMD)", "ANGLE (AMD, AMD Radeon RX 6900 XT (0x73BF) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (AMD)", "ANGLE (AMD, AMD Radeon R9 380 (0x6938) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (AMD)", "ANGLE (AMD, AMD Radeon Pro 560X (0x67EF) Direct3D11 vs_5_0 ps_5_0, D3D11)") ,
+    
+        ("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce GTX 750 Ti (0x1380) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce GTX 960 (0x1401) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce GTX 1050 (0x1C8D) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce GTX 1060 (0x1C03) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce GTX 1070 (0x1B81) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce GTX 1080 (0x1B80) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce GTX 1660 Ti (0x2182) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce RTX 2060 (0x1F12) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce RTX 2070 Super (0x1E84) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce RTX 2080 Ti (0x1E04) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 (0x2503) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce RTX 3070 (0x2484) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+    ("Google Inc. (NVIDIA Corporation)", "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 (0x2204) Direct3D11 vs_5_0 ps_5_0, D3D11)"),
+]
 user_agents = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.171 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.129 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.121 Safari/537.36",
+    #"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Safari/537.36",
+    #"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.171 Safari/537.36",
+    #"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36",
+    #"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.129 Safari/537.36",
+    #"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.121 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
 ]
 
 def combinaison() :
