@@ -23,7 +23,8 @@ async def runChrome(search_url: str, gpt: GPT_ask, compagny: str, refere: str,
         webgl_vendor_override = gpu_vendor[0] ,
         webgl_renderer_override= gpu_vendor[1] , 
         navigator_user_agent_override = user_agent ,
-        sec_ch_ua='Google Chrome";v="115"'
+        sec_ch_ua='Google Chrome";v="115"' , 
+        init_scripts_only=True
         
         ).use_async(async_playwright()) as p:
         context = await p.chromium.launch_persistent_context(
@@ -32,10 +33,7 @@ async def runChrome(search_url: str, gpt: GPT_ask, compagny: str, refere: str,
             locale="en-US",
             ignore_default_args=['--enable-automation'],
             args=[
-                "--use-gl=egl",
                 "--no-sandbox",
-                "--enable-webgl",
-                "--enable-webgl2",
                 "--disable-blink-features=AutomationControlled",
                 f"--disable-extensions-except={PATH_EXTENSION}",
                 "--disable-infobars",
@@ -50,8 +48,8 @@ async def runChrome(search_url: str, gpt: GPT_ask, compagny: str, refere: str,
             
         )
 
-
-        
+        hardwareConcurrency =random.choice([2, 4, 6, 8, 12])
+        deviceMemory=random.choice([2, 4, 8, 16])
         vendor_script = f"""
         
             // Fausser languages
@@ -71,12 +69,12 @@ async def runChrome(search_url: str, gpt: GPT_ask, compagny: str, refere: str,
             );
                 // Fake hardwareConcurrency
             Object.defineProperty(navigator, 'hardwareConcurrency', {{
-                get: () => {random.choice([2, 4, 6, 8, 12])},
+                get: () => {hardwareConcurrency},
             }});
 
                 // Fake deviceMemory
             Object.defineProperty(navigator, 'deviceMemory', {{
-                get: () => {random.choice([2, 4, 8, 16])},
+                get: () => {deviceMemory},
             }});
             
             const getParameter = WebGLRenderingContext.prototype.getParameter;
@@ -102,27 +100,27 @@ async def runChrome(search_url: str, gpt: GPT_ask, compagny: str, refere: str,
         if counter == 5:
             logging.info("Navigation via Google referer pour accéder au profil")
             logging.debug(f"URL: {search_url}")
-            page = await access_via_google(context=context, search=search_url, compagny=compagny)
+            page = await access_via_google(context=context, search=search_url, compagny=compagny , agent=user_agent , height= viewport[1], width=viewport[0])
         elif counter == 4:
             logging.info("Navigation via LinkedIn referer")
-            page = await access_via_linkdin(context=context)
+            page = await access_via_linkdin(context=context , height= viewport[1], width=viewport[0])
             search_url += '?trk=people-guest_people_search-card'
             
         elif counter == 3  : 
             logging.info("Navigation via LinkedIn touche")
-            page = await access_via_linkdin(context=context , touch= True)
+            page = await access_via_linkdin(context=context , touch= True , height= viewport[1], width=viewport[0])
             search_url += '?trk=people-guest_people_search-card'
             
         elif counter == 2  : 
             logging.info("Navigation via Google touche")
-            page = await access_via_google(context=context, search=search_url, compagny=compagny , touch = True)
+            page = await access_via_google(context=context, search=search_url, compagny=compagny ,agent=user_agent, touch = True , height= viewport[1], width=viewport[0])
         else:
             page = context.pages[0] if context.pages else await context.new_page()
 
         await page.goto(f'{search_url}', wait_until="domcontentloaded", timeout=60000)
+        
         await load_dom(page, gpt, compagny)
         await asyncio.sleep(random.uniform(30, 60))
-        
         await context.close()
         
         
@@ -211,30 +209,40 @@ async def check_url(page):
         await page.wait_for_function(
                     "() => window.location.href.startsWith('https://www.google.com/search')", timeout=0
                 )
-        await page.wait_for_load_state("domcontentloaded")
+        await page.wait_for_load_state("networkidle")
         logging.info("✅ Retour sur la page de recherche Google")
 
 
-async def access_via_google(context, search, compagny , touch = False):
+async def access_via_google(context, search :str, compagny : str , agent :str  ,width : int , height :int ,   touch:bool = False):
     search_parse = generate_google_search_url(query=search, compagny=compagny)
     page0 = context.pages[0] if context.pages else await context.new_page()
     try:
-        await page0.goto(f'{search_parse}', wait_until="networkidle", timeout=60000)
+        await page0.goto(f'{search_parse}', wait_until="networkidle", timeout=0)
         await check_url(page0)
     except Exception as e:
         logging.error(str(e))
     if touch : 
         try  : 
-            await asyncio.sleep(random.uniform(10,20))
-            await access_via_google_link(page=page0 , link=search)
+            print("ato a ")
+            #await asyncio.sleep(random.uniform(10,20))
+            await access_via_google_link(page=page0 , link=search , width = width  , height=height)
         except Exception as e : 
             logging.error(str(e))
     await asyncio.sleep(random.uniform(10,20))
     page = await context.new_page()
-    await page.set_extra_http_headers({
-        "referer": "https://www.google.com/"
-        
+    if not touch :
+        await page.set_extra_http_headers({
+        "Referer": "https://www.google.com/",
+        "User-Agent":f"{agent}",
+        "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Sec-Fetch-Site": "cross-site",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1"
+        #"Referer":f"{page0.url}"
         })
+    input('')
     return page
 
 
@@ -242,6 +250,8 @@ async def access_via_google(context, search, compagny , touch = False):
 
 
 def generate_google_search_url(query: str, compagny: str, domain: str = "linkedin.com/in/") -> str:
+    encoded_query = urllib.parse.unquote_plus(query)
+    print(f"after : {encoded_query} before  : {query}")
     important_query = query.split("/in/")[1]
     important_query_clean = re.sub(r'-[^-]*\d[^-]*$', '', important_query)
     text_clean = re.sub(r'-', ' ', important_query_clean)
@@ -287,7 +297,7 @@ async def check_text_captcha_google(page):
 
 
 
-async def access_via_linkedin_button(page: Page):
+async def access_via_linkedin_button(page: Page  , width : int , height : int):
     selector = 'li > a[href="https://www.linkedin.com/pub/dir/+/+?trk=guest_homepage-basic_guest_nav_menu_people"]'
     await page.wait_for_selector(selector, timeout=10000)
 
@@ -297,9 +307,14 @@ async def access_via_linkedin_button(page: Page):
     if count > 0:
         box = await locator.first.bounding_box()
         if box:
+            if (random.randint(0,1) == 1) :
+                await page.mouse.move(random.randint(0 , width) , 0)
+            else  : 
+                await page.mouse.move(  0 , random.randint(0 , height))
             # Petite imperfection aléatoire dans la position
-            offset_x = box["width"] * random.uniform(0.3, 0.7)
-            offset_y = box["height"] * random.uniform(0.4, 0.6)
+            offset_x = round(box["width"] * random.uniform(0.35, 0.65),2)
+
+            offset_y = round(box["height"] * random.uniform(0.3, 0.75),2)
 
             # Mouvement de souris vers l'élément
             await page.mouse.move(box["x"] + offset_x, box["y"] + offset_y, steps=random.randint(10, 20))
@@ -309,7 +324,7 @@ async def access_via_linkedin_button(page: Page):
             return True
     return False
 
-async def access_via_linkdin(context , touch = False):
+async def access_via_linkdin(context , width:int , height:int  ,  touch = False ):
     page0 = context.pages[0] if context.pages else await context.new_page()
     try:
         await page0.goto("https://www.linkedin.com/", wait_until="networkidle" )
@@ -320,7 +335,7 @@ async def access_via_linkdin(context , touch = False):
     
     if touch : 
         try:
-            await access_via_linkedin_button(page0)
+            await access_via_linkedin_button(page0 , height= height, width=width)
         except Exception as e:
             logging.error(str(e))
 
@@ -334,31 +349,33 @@ async def access_via_linkdin(context , touch = False):
         logging.error(str(e))
         
     page = await context.new_page()
-    await page.set_extra_http_headers({
-        "Referer": f"{page1.url}" 
-        
-        })
     return page
 
-async def access_via_google_link(page: Page , link : str):
-    selector = f'span > a[href="{link}"]'
-    await page.wait_for_selector(selector, timeout=10000)
+async def access_via_google_link(page: Page , link : str , width : int , height : int):
+    selector = f'span > a[href="{link}"]  h3'
+    await page.wait_for_selector(selector, timeout=1000)
 
     locator = page.locator(selector)
     count = await locator.count()
-
+    
     if count > 0:
         box = await locator.first.bounding_box()
         if box:
+            if (random.randint(0,1) == 1) :
+                await page.mouse.move(random.randint(0 , width) , 0)
+            else  : 
+                await page.mouse.move(  0 , random.randint(0 , height))
+                
             # Petite imperfection aléatoire dans la position
-            offset_x = box["width"] * random.uniform(0.3, 0.7)
-            offset_y = box["height"] * random.uniform(0.4, 0.6)
-
+            offset_x = round(box["width"] * random.uniform(0.3, 0.6) ,2)
+            offset_y = round(box["height"] * random.uniform(0.2, 0.8) , 2)
+            print(f"offset_x :{offset_x} | offset_y :{offset_y} | box[x] : {box['x']} | box[y] : {box['y']} | box['width'] : {box['width']} | box['height'] : {box['height']}")
+            
             # Mouvement de souris vers l'élément
             await page.mouse.move(box["x"] + offset_x, box["y"] + offset_y, steps=random.randint(10, 20))
 
             # Clic après mouvement
-            await page.mouse.click(box["x"] + offset_x, box["y"] + offset_y, delay=random.randint(50, 150))
+            await page.mouse.click(box["x"] + offset_x, box["y"] + offset_y, delay=random.randint(50, 70))
             return True
     return False
 

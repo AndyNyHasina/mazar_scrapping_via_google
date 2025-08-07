@@ -1037,3 +1037,480 @@ Call log:
 
 2025-08-05 15:07:33,783 [WARNING] 4 tentative(s) restante(s), relance...
 2025-08-05 15:07:34,800 [INFO] Navigation via LinkedIn referer
+2025-08-05 15:09:51,832 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 15:10:46,726 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:11:10,517 [INFO] ➡️ Accès au profil : https://bf.linkedin.com/in/ben-cheick-d-haidara-577bb515 (index combinaison: 53)
+2025-08-05 15:11:10,518 [INFO] Profil: ((5120, 2880), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 15:11:15,519 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 15:11:47,713 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 15:11:47,715 [INFO] Nom du CEO/CFO détecté : Ben Cheick D. HAIDARA
+2025-08-05 15:11:47,715 [INFO] Analyse terminée.
+2025-08-05 15:12:35,690 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:13:03,294 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/micha%C3%ABl-trabbia-4698a58b (index combinaison: 55)
+2025-08-05 15:13:03,294 [INFO] Profil: ((5120, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 15:13:04,199 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 15:13:10,471 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-05 15:13:54,820 [INFO] ✅ Retour sur la page de recherche Google
+2025-08-05 15:14:35,252 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:14:35,304 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGkUI9JtG0P_QAAAZh6J1XYnlW2l6sCu7InsFYBQCmWpA9imVojxFpYQPEUGdW-n5c4hg_eq04AWZwzLb_ihXCTWf0mAk72gB7nsVmAe60nVdFnle0w8E30TvAovBb9z_M_VNY=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGkUI9JtG0P_QAAAZh6J1XYnlW2l6sCu7InsFYBQCmWpA9imVojxFpYQPEUGdW-n5c4hg_eq04AWZwzLb_ihXCTWf0mAk72gB7nsVmAe60nVdFnle0w8E30TvAovBb9z_M_VNY=&original_refe…"
+
+2025-08-05 15:14:35,305 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 15:14:36,534 [INFO] Navigation via LinkedIn referer
+2025-08-05 15:16:47,590 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 15:16:47,594 [INFO] Nom du CEO/CFO détecté : Michaël Trabbia
+2025-08-05 15:16:47,594 [INFO] Analyse terminée.
+2025-08-05 15:17:46,398 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:18:10,345 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/aliette-mousnier-lompr%C3%A9-6787114 (index combinaison: 22)
+2025-08-05 15:18:10,346 [INFO] Profil: ((1600, 900), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 15:18:11,345 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 15:18:13,538 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:18:13,590 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 15:18:13,893 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<runChrome() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\main.py:34> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:228, <55 more>, gather.<locals>._done_callback() at C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2025-08-05 15:18:23,471 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 15:18:27,176 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 15:18:27,283 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 15:18:27,284 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 28)
+2025-08-05 15:18:27,284 [INFO] Profil: ((1920, 1080), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 15:18:28,212 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 15:18:56,600 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:18:56,678 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 15:18:56,784 [ERROR] Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+2025-08-05 15:19:27,693 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 15:19:31,273 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 15:19:31,356 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 15:19:31,356 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 2)
+2025-08-05 15:19:31,356 [INFO] Profil: ((800, 600), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 15:19:32,391 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 15:20:20,572 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:20:20,636 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEb2IkEVZ8yjgAAAZh6LJmAEPgoAmCDoUlKgtEvvzcaLn97Xhn1AI6a5wp7Fu0n7DPwdZRP1XRKEgNlt7A6NtSsh-1yTKcNAHVN01W1YfW-9DbFEPZo41yurMII5NwjprfW5D0=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQEb2IkEVZ8yjgAAAZh6LJmAEPgoAmCDoUlKgtEvvzcaLn97Xhn1AI6a5wp7Fu0n7DPwdZRP1XRKEgNlt7A6NtSsh-1yTKcNAHVN01W1YfW-9DbFEPZo41yurMII5NwjprfW5D0=&original_refe…"
+
+2025-08-05 15:20:20,637 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 15:20:21,758 [INFO] Navigation via LinkedIn referer
+2025-08-05 15:21:08,989 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:21:09,039 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 15:21:17,305 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 15:21:20,314 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 15:21:20,398 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 15:21:20,398 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 24)
+2025-08-05 15:21:20,398 [INFO] Profil: ((1600, 900), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 15:21:21,414 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 15:22:07,456 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:22:07,506 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGcJzKlZtBy6QAAAZh6Ljt4QOFOxBjnSJyrB_aAPTDUj171rPAqERjj84QTEjovL3JKxoUHXxsmU1iOg5zBe1kavXdwRmtdbcWujjr2-J2dryuJk1gGW5Jx7FeaCiIAewv3atk=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQGcJzKlZtBy6QAAAZh6Ljt4QOFOxBjnSJyrB_aAPTDUj171rPAqERjj84QTEjovL3JKxoUHXxsmU1iOg5zBe1kavXdwRmtdbcWujjr2-J2dryuJk1gGW5Jx7FeaCiIAewv3atk=&original_refe…"
+
+2025-08-05 15:22:07,507 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 15:22:08,620 [INFO] Navigation via LinkedIn referer
+2025-08-05 15:24:20,673 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 15:24:20,679 [INFO] Nom du CEO/CFO détecté : Christel Heydemann
+2025-08-05 15:24:20,679 [INFO] Analyse terminée.
+2025-08-05 15:25:00,540 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:25:26,815 [INFO] ➡️ Accès au profil : https://mg.linkedin.com/in/frederic-debord-6880284 (index combinaison: 59)
+2025-08-05 15:25:26,816 [INFO] Profil: ((5120, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 15:25:29,106 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 15:25:35,097 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-05 15:25:57,972 [INFO] ✅ Retour sur la page de recherche Google
+2025-08-05 15:26:24,548 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-05 15:26:24,551 [INFO] Nom du CEO/CFO détecté : Frederic Debord
+2025-08-05 15:26:24,551 [INFO] Analyse terminée.
+2025-08-05 15:27:01,736 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:27:26,617 [INFO] ➡️ Accès au profil : https://be.linkedin.com/company/orange (index combinaison: 54)
+2025-08-05 15:27:26,617 [INFO] Profil: ((5120, 2880), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 15:27:27,525 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 15:27:27,798 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:27:27,841 [ERROR] list index out of range
+2025-08-05 15:27:27,841 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 15:27:29,235 [INFO] Navigation via LinkedIn referer
+2025-08-05 15:27:59,252 [ERROR] Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.linkedin.com/", waiting until "networkidle"
+
+2025-08-05 15:28:32,639 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:28:32,708 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 15:28:53,371 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 15:28:56,979 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 15:28:57,107 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 15:28:57,107 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 58)
+2025-08-05 15:28:57,108 [INFO] Profil: ((5120, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 15:28:57,933 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 15:29:04,566 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-05 15:29:43,473 [INFO] ✅ Retour sur la page de recherche Google
+2025-08-05 15:30:20,667 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:30:20,717 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQE1sdXbcBl9lQAAAZh6NcFAuAAC0lJUr0EgSS-Hym5Kn4gC79kSIA2OSUZttW_WZv4qrSdHQV_83pirN7cwAo3Rvu1qUmCWjvvirWu3_edOxH73uLkoZjhHX5-5jyk9-ptikao=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQE1sdXbcBl9lQAAAZh6NcFAuAAC0lJUr0EgSS-Hym5Kn4gC79kSIA2OSUZttW_WZv4qrSdHQV_83pirN7cwAo3Rvu1qUmCWjvvirWu3_edOxH73uLkoZjhHX5-5jyk9-ptikao=&original_refe…"
+
+2025-08-05 15:30:20,718 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 15:30:22,546 [INFO] Navigation via LinkedIn referer
+2025-08-05 15:31:20,718 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:31:20,797 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 15:31:22,097 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<runChrome() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\main.py:34> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:228, <12 more>, gather.<locals>._done_callback() at C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2025-08-05 15:31:56,759 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 15:32:00,547 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 15:32:00,649 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 15:32:00,649 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 48)
+2025-08-05 15:32:00,649 [INFO] Profil: ((3840, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 15:32:01,447 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 15:32:45,373 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:32:45,437 [ERROR] Page.wait_for_selector: Timeout 20000ms exceeded.
+Call log:
+  - waiting for locator("section.profile") to be visible
+    - waiting for" https://www.linkedin.com/authwall?trk=gf&trkInfo=AQE9T5TKLwKBpQAAAZh6N_eorOrQn_wt2gBPkeWHpafReJstE2J7TGFMZPyxZ0bV1M5oXBMaIy5TfrbhFQf3I_c2cMMlcmOMv1LfHaO00-B3wzWHdZnrSG9iwDFL8f6RdUGV3yI=&original_refe…" navigation to finish...
+    - navigated to "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQE9T5TKLwKBpQAAAZh6N_eorOrQn_wt2gBPkeWHpafReJstE2J7TGFMZPyxZ0bV1M5oXBMaIy5TfrbhFQf3I_c2cMMlcmOMv1LfHaO00-B3wzWHdZnrSG9iwDFL8f6RdUGV3yI=&original_refe…"
+
+2025-08-05 15:32:45,437 [WARNING] 4 tentative(s) restante(s), relance...
+2025-08-05 15:32:46,718 [INFO] Navigation via LinkedIn referer
+2025-08-05 15:33:17,739 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:33:17,778 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 15:33:17,873 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-08-05 15:33:33,627 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 15:33:37,156 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 15:33:37,238 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 15:33:37,238 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 63)
+2025-08-05 15:33:37,238 [INFO] Profil: ((7680, 4320), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 15:33:38,049 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 15:33:44,072 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-05 15:34:26,509 [INFO] ✅ Retour sur la page de recherche Google
+2025-08-05 15:48:36,545 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:48:44,056 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 15:48:47,313 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 15:48:47,430 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 15:48:47,430 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 22)
+2025-08-05 15:48:47,430 [INFO] Profil: ((1600, 900), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 15:48:48,216 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 15:49:45,038 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 15:51:02,927 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 15:51:06,067 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 15:51:06,147 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 15:51:06,147 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 44)
+2025-08-05 15:51:06,147 [INFO] Profil: ((3440, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 15:51:06,927 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 16:05:31,469 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:05:39,261 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:05:42,607 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:05:42,689 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:05:42,689 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 14)
+2025-08-05 16:05:42,689 [INFO] Profil: ((1280, 720), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:05:43,434 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 16:12:02,966 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:12:08,614 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:12:12,171 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:12:12,255 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:12:12,255 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 66)
+2025-08-05 16:12:12,255 [INFO] Profil: ((7680, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:12:13,108 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 16:12:19,415 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-05 16:13:16,199 [INFO] ✅ Retour sur la page de recherche Google
+2025-08-05 16:14:09,742 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:14:16,068 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:14:19,127 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:14:19,212 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:14:19,212 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 14)
+2025-08-05 16:14:19,213 [INFO] Profil: ((1280, 720), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:14:19,989 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 16:15:30,734 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:15:38,411 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:15:41,297 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:15:41,383 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:15:41,383 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 38)
+2025-08-05 16:15:41,383 [INFO] Profil: ((2560, 1600), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:15:42,217 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 16:16:58,661 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:17:47,644 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:17:50,947 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:17:51,039 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:17:51,039 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 30)
+2025-08-05 16:17:51,040 [INFO] Profil: ((2560, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:17:51,907 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-05 16:18:53,604 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:20:00,095 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:20:08,320 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:20:08,405 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:20:08,405 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 36)
+2025-08-05 16:20:08,406 [INFO] Profil: ((2560, 1600), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:20:09,254 [INFO] Navigation via Google touche
+2025-08-05 16:22:29,966 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:22:35,934 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:22:40,345 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:22:40,429 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:22:40,429 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 42)
+2025-08-05 16:22:40,429 [INFO] Profil: ((3440, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:22:41,239 [INFO] Navigation via Google touche
+2025-08-05 16:24:04,646 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:24:27,434 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:24:31,730 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:24:31,812 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:24:31,813 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 46)
+2025-08-05 16:24:31,813 [INFO] Profil: ((3840, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:24:32,651 [INFO] Navigation via Google touche
+2025-08-05 16:26:27,686 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:27:15,921 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:27:19,458 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:27:19,543 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:27:19,543 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 33)
+2025-08-05 16:27:19,543 [INFO] Profil: ((2560, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:27:20,371 [INFO] Navigation via Google touche
+2025-08-05 16:29:05,942 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:29:14,932 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:29:18,517 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:29:18,597 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:29:18,597 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 34)
+2025-08-05 16:29:18,597 [INFO] Profil: ((2560, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:29:19,384 [INFO] Navigation via Google touche
+2025-08-05 16:30:58,925 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:32:03,961 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:32:06,801 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:32:06,880 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:32:06,880 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 58)
+2025-08-05 16:32:06,880 [INFO] Profil: ((5120, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:32:07,634 [INFO] Navigation via Google touche
+2025-08-05 16:33:46,718 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:34:35,555 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:34:41,219 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:34:41,306 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:34:41,306 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 55)
+2025-08-05 16:34:41,307 [INFO] Profil: ((5120, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:34:42,036 [INFO] Navigation via Google touche
+2025-08-05 16:44:24,549 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:44:30,188 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:44:33,550 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:44:33,632 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:44:33,633 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 17)
+2025-08-05 16:44:33,633 [INFO] Profil: ((1366, 768), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:44:34,339 [INFO] Navigation via Google touche
+2025-08-05 16:46:07,135 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:46:12,763 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:46:16,034 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:46:16,135 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:46:16,135 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 66)
+2025-08-05 16:46:16,136 [INFO] Profil: ((7680, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:46:16,897 [INFO] Navigation via Google touche
+2025-08-05 16:46:38,495 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:46:56,210 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:46:59,894 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:46:59,974 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:46:59,974 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 175)
+2025-08-05 16:46:59,974 [INFO] Profil: ((1920, 1080), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:47:00,789 [INFO] Navigation via Google touche
+2025-08-05 16:48:00,330 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:48:00,493 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<Connection.run() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:303> exception=InvalidStateError('invalid state')>
+Traceback (most recent call last):
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.run()
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_transport.py", line 171, in run
+    self._stopped_future.set_result(None)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+asyncio.exceptions.InvalidStateError: invalid state
+2025-08-05 16:48:06,122 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:48:09,177 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:48:09,260 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:48:09,260 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 419)
+2025-08-05 16:48:09,260 [INFO] Profil: ((7680, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:48:10,022 [INFO] Navigation via Google touche
+2025-08-05 16:48:16,120 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-05 16:48:39,251 [INFO] ✅ Retour sur la page de recherche Google
+2025-08-05 16:51:49,160 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:51:56,426 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:52:00,007 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:52:00,151 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:52:00,151 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 280)
+2025-08-05 16:52:00,152 [INFO] Profil: ((3840, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:52:00,891 [INFO] Navigation via Google touche
+2025-08-05 16:52:09,161 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-05 16:52:25,606 [INFO] ✅ Retour sur la page de recherche Google
+2025-08-05 16:52:26,618 [ERROR] Page.wait_for_selector: Timeout 1000ms exceeded.
+Call log:
+  - waiting for locator("span > a[href=\"https://fr.linkedin.com/in/heydemannchristel h3\"]") to be visible
+
+2025-08-05 16:52:38,781 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:52:38,819 [INFO] 🛑 Navigateur fermé proprement
+2025-08-05 16:52:38,912 [ERROR] Future exception was never retrieved
+future: <Future finished exception=Exception('Connection closed while reading from the driver')>
+Exception: Connection closed while reading from the driver
+2025-08-05 16:52:50,808 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:52:54,194 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:52:54,278 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:52:54,278 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 323)
+2025-08-05 16:52:54,279 [INFO] Profil: ((5120, 2880), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.121 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:52:55,001 [INFO] Navigation via Google touche
+2025-08-05 16:53:01,269 [WARNING] ⚠️ Redirection vers la page CAPTCHA détectée. Attente du retour à la recherche...
+2025-08-05 16:55:59,655 [ERROR] Page.wait_for_function: Target page, context or browser has been closed
+2025-08-05 16:55:59,658 [ERROR] Page.wait_for_selector: Target page, context or browser has been closed
+2025-08-05 16:56:01,648 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:56:06,516 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:56:10,154 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:56:10,232 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:56:10,232 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 146)
+2025-08-05 16:56:10,233 [INFO] Profil: ((1600, 900), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 530 (0x191B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:56:11,022 [INFO] Navigation via Google touche
+2025-08-05 16:57:30,966 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:57:33,346 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<runChrome() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\main.py:34> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:228, <6 more>, gather.<locals>._done_callback() at C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2025-08-05 16:57:38,558 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:57:42,339 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:57:42,421 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:57:42,421 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 228)
+2025-08-05 16:57:42,421 [INFO] Profil: ((2560, 1600), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.129 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:57:43,260 [INFO] Navigation via Google touche
+2025-08-05 16:58:10,669 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:58:10,784 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<Connection.run() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:303> exception=InvalidStateError('invalid state')>
+Traceback (most recent call last):
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.run()
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_transport.py", line 171, in run
+    self._stopped_future.set_result(None)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+asyncio.exceptions.InvalidStateError: invalid state
+2025-08-05 16:58:16,105 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:58:19,462 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:58:19,542 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:58:19,542 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 60)
+2025-08-05 16:58:19,542 [INFO] Profil: ((1280, 720), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.188 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:58:20,340 [INFO] Navigation via Google touche
+2025-08-05 16:59:18,501 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 16:59:23,917 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-05 16:59:27,472 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-05 16:59:27,551 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-05 16:59:27,551 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 279)
+2025-08-05 16:59:27,552 [INFO] Profil: ((3840, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.171 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-05 16:59:28,335 [INFO] Navigation via Google touche
+2025-08-05 17:00:31,293 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-05 17:00:31,469 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<Connection.run() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:303> exception=InvalidStateError('invalid state')>
+Traceback (most recent call last):
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.run()
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_transport.py", line 171, in run
+    self._stopped_future.set_result(None)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+asyncio.exceptions.InvalidStateError: invalid state
+2025-08-06 08:08:40,800 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-06 08:08:47,914 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-06 08:08:48,003 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-06 08:08:48,003 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 353)
+2025-08-06 08:08:48,004 [INFO] Profil: ((5120, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.121 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-06 08:08:48,789 [INFO] Navigation via Google touche
+2025-08-06 08:11:19,879 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-06 08:11:24,867 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<runChrome() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\main.py:34> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:228, <6 more>, gather.<locals>._done_callback() at C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2025-08-06 08:11:33,557 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-06 08:11:36,988 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-06 08:11:37,091 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-06 08:11:37,091 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 72)
+2025-08-06 08:11:37,092 [INFO] Profil: ((1280, 720), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-06 08:11:37,903 [INFO] Navigation via Google touche
+2025-08-06 08:19:48,141 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-06 08:19:53,696 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-06 08:19:57,865 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-06 08:19:57,948 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-06 08:19:57,948 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 192)
+2025-08-06 08:19:57,948 [INFO] Profil: ((2560, 1440), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-06 08:19:58,699 [INFO] Navigation via Google touche
+2025-08-06 08:20:53,702 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-06 08:55:21,665 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-06 08:55:25,340 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-06 08:55:25,489 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-06 08:55:25,489 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 408)
+2025-08-06 08:55:25,490 [INFO] Profil: ((7680, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.5672.129 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-06 08:55:26,704 [INFO] Navigation via Google touche
+2025-08-06 09:00:36,732 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-06 09:00:36,898 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<Connection.run() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:303> exception=InvalidStateError('invalid state')>
+Traceback (most recent call last):
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.run()
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_transport.py", line 171, in run
+    self._stopped_future.set_result(None)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+asyncio.exceptions.InvalidStateError: invalid state
+2025-08-06 09:01:18,289 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-06 09:01:23,011 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-06 09:01:23,109 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-06 09:01:23,110 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 20)
+2025-08-06 09:01:23,110 [INFO] Profil: ((800, 600), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.121 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-06 09:01:23,857 [INFO] Navigation via LinkedIn touche
+2025-08-06 09:06:32,546 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-06 09:06:36,786 [ERROR] Task was destroyed but it is pending!
+task: <Task cancelling name='Task-1' coro=<runChrome() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\main.py:34> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[ProtocolCallback.__init__.<locals>.cb() at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:228, <3 more>, gather.<locals>._done_callback() at C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py:820]>
+2025-08-06 09:06:36,787 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<Connection.run() done, defined at C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py:303> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 706, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 677, in run_forever
+    self._run_once()
+  File "C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 2034, in _run_once
+    handle._run()
+  File "C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\events.py", line 89, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_connection.py", line 312, in run
+    await self._transport.run()
+  File "C:\Users\Hasina_IA\Documents\vscode\laida_linkdin_2.0\venv\Lib\site-packages\playwright\_impl\_transport.py", line 145, in run
+    length = int.from_bytes(buffer, byteorder="little", signed=False)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hasina_IA\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 157, in _on_sigint
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+2025-08-06 09:06:41,841 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-06 09:06:44,992 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-06 09:06:45,097 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-06 09:06:45,097 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 414)
+2025-08-06 09:06:45,098 [INFO] Profil: ((7680, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.121 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 630 (0x3E9B) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-06 09:06:45,892 [INFO] Navigation via LinkedIn touche
+2025-08-06 09:11:56,537 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-06 09:20:25,588 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-06 09:20:31,690 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-06 09:20:31,840 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-06 09:20:31,840 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 100)
+2025-08-06 09:20:31,840 [INFO] Profil: ((1366, 768), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-06 09:20:32,571 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-06 09:22:38,701 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-06 09:22:44,059 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-06 09:22:50,068 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-06 09:22:50,176 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-06 09:22:50,176 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 290)
+2025-08-06 09:22:50,177 [INFO] Profil: ((3840, 2160), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.121 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 520 (0x1916) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-06 09:22:51,091 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-06 09:25:15,501 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-06 09:25:15,526 [INFO] Nom du CEO/CFO détecté : Christel Heydemann
+2025-08-06 09:25:15,526 [INFO] Analyse terminée.
+2025-08-06 09:26:04,786 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-07 12:02:31,217 [INFO] 🌐 Navigation vers la page de recherche Google...
+2025-08-07 12:02:34,799 [INFO] 🔄 Récupération des liens LinkedIn via util.main_loop_for_list_url_with_access...
+2025-08-07 12:02:34,911 [INFO] 🔎 Traitement de 10 profils LinkedIn
+2025-08-07 12:02:34,911 [INFO] ➡️ Accès au profil : https://fr.linkedin.com/in/heydemannchristel (index combinaison: 162)
+2025-08-07 12:02:34,911 [INFO] Profil: ((1920, 1080), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) HD Graphics 5500 (0x1616) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-07 12:02:35,941 [INFO] Navigation via Google referer pour accéder au profil
+2025-08-07 12:03:20,724 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-07 12:03:20,751 [INFO] Nom du CEO/CFO détecté : Christel Heydemann
+2025-08-07 12:03:20,751 [INFO] Analyse terminée.
+2025-08-07 12:03:55,696 [INFO] Suppression de l'ancienne session utilisateur
+2025-08-07 12:04:24,749 [INFO] ➡️ Accès au profil : https://mg.linkedin.com/in/frederic-debord-6880284 (index combinaison: 38)
+2025-08-07 12:04:24,751 [INFO] Profil: ((1024, 768), 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5790.171 Safari/537.36', ('Google Inc. (Intel)', 'ANGLE (Intel, Intel(R) UHD Graphics 620 (0x5917) Direct3D11 vs_5_0 ps_5_0, D3D11)'))
+2025-08-07 12:04:27,368 [INFO] Navigation via Google referer pour accéder au profil
